@@ -1,0 +1,90 @@
+[
+  {
+      "name": "side mild",
+      "cost": 0.5
+  },
+  {
+    "name": "side medium",
+    "cost": 1.0
+  },
+  {
+    "name": "side nashville",
+    "cost": 2.0
+  },
+  {
+    "name": "side poultrygeist",
+    "cost": 2.5
+  },
+  {
+    "name": "side apple butter",
+    "cost": 0.5
+  },
+  {
+    "name": "side bama white",
+    "cost": 0.5
+  },
+  {
+    "name": "side bam bam",
+    "cost": 0.5
+  },
+  {
+    "name": "side balsamic",
+    "cost": 0.5
+  },
+  {
+    "name": "side TN whiskey",
+    "cost": 0.5
+  },
+  {
+    "name": "side blue",
+    "cost": 0.5
+  },
+  {
+    "name": "side buffalo",
+    "cost": 0.5
+  },
+  {
+    "name": "side chipotle",
+    "cost": 0.5
+  },
+  {
+    "name": "side cilantro",
+    "cost": 0.5
+  },
+  {
+    "name": "side garlic lemon vinaigrette",
+    "cost": 0.5
+  },
+  {
+    "name": "side honey mustard",
+    "cost": 0.5
+  },
+  {
+    "name": "side jamaican jerk",
+    "cost": 0.5
+  },
+  {
+    "name": "side poutine gravy",
+    "cost": 2.0
+  },
+  {
+    "name": "side ranch",
+    "cost": 0.5
+  },
+  {
+    "name": "side sour cream",
+    "cost": 1.0
+  },
+  {
+    "name": "side strawberry jalapeño",
+    "cost": 0.5
+  },
+  {
+    "name": "side sawmill gravy",
+    "cost": 0.5
+  },
+  {
+    "name": "side tartar sauce",
+    "cost": 0.5
+  }
+]

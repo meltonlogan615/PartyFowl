@@ -1,0 +1,86 @@
+[
+  {
+    "menuItem": "FRIED ONION RING LOAF",
+    "description": "thin-sliced vidalia onions, breaded and fried served with chipotle ranch",
+    "cost": 12,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "FOWL BALLS",
+    "description": "new orleans-style dirty rice balls fried and served with white bbq sauce",
+    "cost": 9,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "FRIED CHEESE GRIT CAKES",
+    "description": "creamy grit cakes served with our house-made strawberry-jalapeño jam",
+    "cost": 10,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "HOT CHICKEN NACHOS",
+    "description": "perfect for sharing! bacon-fried tortilla chips topped with white beans, cheese, avocado, green onions, lettuce, pico de gallo, fresh jalapeños, sour cream and of course… hot chicken (choose heat level)",
+    "cost": 19,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "PIGGY CHIPS",
+    "description": "crispy bacon-fried potato chips served with white bbq sauce",
+    "cost": 9,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "HOT CHICKEN CHORIZO QUESO",
+    "description": "melted mexican cheeses seasoned with peppers, topped with hot chicken chorizo and served with bacon-fried tortilla chips",
+    "cost": 11,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "PIMENTO CHEESE + CHEERWINE BACON JAM",
+    "description": "homemade pimento cheese served with cheer wine bacon jam, dill pickles and saltine crackers",
+    "cost": 12,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "CHICK PEA HUMMUS",
+    "description": "chick pea hummus served with pita points and vegetable slices",
+    "cost": 9,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "SMOKED CHICKEN DIP",
+    "description": "chilled smoked chicken dip served with crackers and dill pickles",
+    "cost": 9,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "CHICKEN LIVER BAM BAM",
+    "description": "fried chicken livers tossed in bam bam sauce",
+    "cost": 11,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "HOT CHICKEN POUTINE",
+    "description": "french fries with cheddar cheese curds, roasted chicken gravy, topped with hot chicken (choose heat level) and chopped green onion",
+    "cost": 16,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "LACQUERED CHICKEN SKEWER",
+    "description": "1lb marinated chicken, slow cooked and flash fried to order, tossed in choice of memphis dry rub, tn whiskey bbq, jamaican jerk, buffalo, mild, medium, nashville hot, or poultrygeist, served with choice of dipping sauce",
+    "cost": 12,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "SMOKED WINGS",
+    "description": "slow smoked and flash fried to order, tossed in memphis dry rub, jamaican jerk, jack daniels bbq, buffalo, mild, medium, nashville hot, or poultrygeist. served with veggie spears and choice of dipping sauce. Order of 6.",
+    "cost": 13,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "SMOKED WINGS",
+    "description": "slow smoked and flash fried to order, tossed in memphis dry rub, jamaican jerk, jack daniels bbq, buffalo, mild, medium, nashville hot, or poultrygeist. served with veggie spears and choice of dipping sauce. Order of 10.",
+    "cost": 17,
+    "additionalInfo": null
+  }
+  ]

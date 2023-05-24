@@ -1,0 +1,32 @@
+[
+  {
+    "menuItem": "NASHVILLE HOT DECONSTRUCTED COBB SALAD",
+    "description": "best salad in nashville! chopped romaine with tomato, cucumber, bacon, blue cheese, smoked hard-boiled eggs, avocado, hot chicken (choose heat level) and choice of dressing",
+    "cost": 19,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "CHICKEN GUMBO",
+    "description": "cup of smoked chicken gumbo served with dirty rice and a slice of french baguette",
+    "cost": 9,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "SIDE SALAD",
+    "description": "romaine lettuce, tomato, cucumber served with choice of dressing\n+(substitute a side salad for traditional side with entree +$2.50)",
+    "cost": 5,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "HOUSE WEDGE",
+    "description": "iceberg wedge with diced tomatoes, cucumber, bacon, blue cheese crumbles, cornbread croutons, and choice of dressing",
+    "cost": 11,
+    "additionalInfo": null
+  },
+  {
+    "menuItem": "CHOPPED KALE SALAD",
+    "description": "kale, tomato, cucumber, carrot, dried sweet corn and red onion tossed in roasted garlic-citrus vinaigrette",
+    "cost": 14,
+    "additionalInfo": null
+  }
+]

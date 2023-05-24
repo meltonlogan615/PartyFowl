@@ -1,0 +1,68 @@
+[
+    {
+        "menuItem": "NASHVILLE HOT HALF BIRD",
+        "description": "welcome to Nashville! half bird (choose heat level) served on texas toast topped with dill pickles and served with a side of coleslaw",
+        "cost": 17,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "HOT CHICKEN N' CHEDDAR",
+        "description": "hot chicken (choose heat level), extra sharp cheddar, bacon, lettuce, tomato, and dill pickle on grilled brioche bun with ranch served with choice of side",
+        "cost": 17,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "HOT CHICKEN AND BEIGNETS",
+        "description": "boneless chicken breast (choose heat level) served on texas toast, topped with dill pickles, served with bourbon glazed beignets and coleslaw",
+        "cost": 16,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "NASHVILLE HOT CHICKEN FRIED CHICKEN",
+        "description": "boneless, thinly-pounded hot chicken breast (choose heat level) on a bed of mashed potatoes, topped with sawmill gravy, served with a side of collard greens",
+        "cost": 16,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "HOT CHICKEN STREET TACOS",
+        "description": "two tacos with hot chicken (choose heat level), jicama slaw, charred street corn, queso fresco, and creme fraiche on double white corn tortillas melded with jack cheese, served with mexican white beans",
+        "cost": 17,
+        "additionalInfo": "additional tacos $7/each"
+    },
+    {
+        "menuItem": "HOT CHICKEN QUESADILLA",
+        "description": "crispy, fried flour tortilla filled with shredded cheddar & jack cheese with fresh pico de gallo, and hot chicken (choose heat level), served with guacamole, shredded lettuce, and sour cream on the side",
+        "cost": 17,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "HOT CHICKEN PO' BOY",
+        "description": "hot chicken (choose heat level) on a french baguette with tomato, lettuce, dill pickles served with white bbq sauce and choice of side",
+        "cost": 17,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "HOT CHICKEN CUBAN SANDWICH",
+        "description": "hot chicken (choose heat level), swiss cheese, dill pickles, yellow mustard, and chimichurri on buttered, pressed french baguette served with choice of side",
+        "cost": 17,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "HOT CHICKEN TENDERS",
+        "description": "jumbo hot chicken tenders (choose heat level) on texas toast topped with dill pickles, served with your choice of dipping sauce and choice of side. Order of 3.",
+        "cost": 15,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "HOT CHICKEN TENDERS",
+        "description": "jumbo hot chicken tenders (choose heat level) on texas toast topped with dill pickles, served with your choice of dipping sauce and choice of side. Order of 4.",
+        "cost": 17,
+        "additionalInfo": null
+    },
+    {
+        "menuItem": "ADDITIONAL DIPPING SAUCES",
+        "description": "ranch, chipotle ranch, blue cheese, white bbq sauce, jalapeño honey mustard, TN whiskey bbq, buffalo",
+        "cost": 0.5,
+        "additionalInfo": null
+    }
+]

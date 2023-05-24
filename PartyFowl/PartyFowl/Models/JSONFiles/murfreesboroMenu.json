@@ -1,0 +1,873 @@
+[
+  {
+    "category": "NASHVILLE HOT CHICKEN",
+    "menuItems": [
+      {
+        "menuItem": "NASHVILLE HOT HALF BIRD",
+        "description": "welcome to Nashville! half bird (choose heat level) served on texas toast topped with dill pickles and served with a side of coleslaw",
+        "cost": 17,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN N' CHEDDAR",
+        "description": "hot chicken (choose heat level), extra sharp cheddar, bacon, lettuce, tomato, and dill pickle on grilled brioche bun with ranch served with choice of side",
+        "cost": 17,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN AND BEIGNETS",
+        "description": "boneless chicken breast (choose heat level) served on texas toast, topped with dill pickles, served with bourbon glazed beignets and coleslaw",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "NASHVILLE HOT CHICKEN FRIED CHICKEN",
+        "description": "boneless, thinly-pounded hot chicken breast (choose heat level) on a bed of mashed potatoes, topped with sawmill gravy, served with a side of collard greens",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN STREET TACOS",
+        "description": "two tacos with hot chicken (choose heat level), jicama slaw, charred street corn, queso fresco, and creme fraiche on double white corn tortillas melded with jack cheese, served with mexican white beans",
+        "cost": 17,
+        "additionalInfo": "additional tacos $7/each"
+      },
+      {
+        "menuItem": "HOT CHICKEN QUESADILLA",
+        "description": "crispy, fried flour tortilla filled with shredded cheddar & jack cheese with fresh pico de gallo, and hot chicken (choose heat level), served with guacamole, shredded lettuce, and sour cream on the side",
+        "cost": 17,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN PO' BOY",
+        "description": "hot chicken (choose heat level) on a french baguette with tomato, lettuce, dill pickles served with white bbq sauce and choice of side",
+        "cost": 17,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN CUBAN SANDWICH",
+        "description": "hot chicken (choose heat level), swiss cheese, dill pickles, yellow mustard, and chimichurri on buttered, pressed french baguette served with choice of side",
+        "cost": 17,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN TENDERS",
+        "description": "jumbo hot chicken tenders (choose heat level) on texas toast topped with dill pickles, served with your choice of dipping sauce and choice of side. Order of 3.",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN TENDERS",
+        "description": "jumbo hot chicken tenders (choose heat level) on texas toast topped with dill pickles, served with your choice of dipping sauce and choice of side. Order of 4.",
+        "cost": 17,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "ADDITIONAL DIPPING SAUCES",
+        "description": "ranch, chipotle ranch, blue cheese, white bbq sauce, jalapeño honey mustard, TN whiskey bbq, buffalo",
+        "cost": 0.5,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "FOR THE TABLE",
+    "menuItems": [
+      {
+        "menuItem": "FRIED ONION RING LOAF",
+        "description": "thin-sliced vidalia onions, breaded and fried served with chipotle ranch",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FOWL BALLS",
+        "description": "new orleans-style dirty rice balls fried and served with white bbq sauce",
+        "cost": 9,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FRIED CHEESE GRIT CAKES",
+        "description": "creamy grit cakes served with our house-made strawberry-jalapeño jam",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN NACHOS",
+        "description": "perfect for sharing! bacon-fried tortilla chips topped with white beans, cheese, avocado, green onions, lettuce, pico de gallo, fresh jalapeños, sour cream and of course… hot chicken (choose heat level)",
+        "cost": 18,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "PIGGY CHIPS",
+        "description": "crispy bacon-fried potato chips served with white bbq sauce",
+        "cost": 8,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN CHORIZO QUESO",
+        "description": "melted mexican cheeses seasoned with peppers, topped with hot chicken chorizo and served with bacon-fried tortilla chips",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "PIMENTO CHEESE + CHEERWINE BACON JAM",
+        "description": "homemade pimento cheese served with cheer wine bacon jam, dill pickles and saltine crackers",
+        "cost": 12,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "CHICK PEA HUMMUS",
+        "description": "chick pea hummus served with pita points and vegetable slices",
+        "cost": 9,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "SMOKED CHICKEN DIP",
+        "description": "chilled smoked chicken dip served with crackers and dill pickles",
+        "cost": 9,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "CHICKEN LIVER BAM BAM",
+        "description": "fried chicken livers tossed in bam bam sauce",
+        "cost": 9,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN POUTINE",
+        "description": "french fries with cheddar cheese curds, roasted chicken gravy, topped with hot chicken (choose heat level) and chopped green onion",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "LACQUERED CHICKEN SKEWER",
+        "description": "1lb marinated chicken, slow cooked and flash fried to order, tossed in choice of memphis dry rub, tn whiskey bbq, jamaican jerk, buffalo, mild, medium, nashville hot, or poultrygeist, served with choice of dipping sauce",
+        "cost": 11,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "SMOKED WINGS",
+        "description": "slow smoked and flash fried to order, tossed in memphis dry rub, jamaican jerk, jack daniels bbq, buffalo, mild, medium, nashville hot, or poultrygeist. served with veggie spears and choice of dipping sauce. Order of 6.",
+        "cost": 13,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "SMOKED WINGS",
+        "description": "slow smoked and flash fried to order, tossed in memphis dry rub, jamaican jerk, jack daniels bbq, buffalo, mild, medium, nashville hot, or poultrygeist. served with veggie spears and choice of dipping sauce. Order of 10.",
+        "cost": 17,
+        "additionalInfo": null
+      }
+    ]
+
+  },
+  {
+    "category": "GUMBOS & SALADS",
+    "menuItems": [
+      {
+        "menuItem": "DRESSING OPTIONS:",
+        "description": "ranch | chipotle ranch | blue cheese | balsamic vinaigrette | roasted garlic-citrus vinaigrette | cilantro-lime vinaigrette | jalapeño honey mustard",
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "NASHVILLE HOT DECONSTRUCTED COBB SALAD",
+        "description": "best salad in nashville! chopped romaine with tomato, cucumber, bacon, blue cheese, smoked hard-boiled eggs, avocado, hot chicken (choose heat level) and choice of dressing",
+        "cost": 19,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "CHICKEN GUMBO",
+        "description": "cup of smoked chicken gumbo served with dirty rice and a slice of french baguette",
+        "cost": 8,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "SIDE SALAD",
+        "description": "romaine lettuce, tomato, cucumber served with choice of dressing\n+(substitute a side salad for traditional side with entree +$2.50)\n$5",
+        "cost": 5,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOUSE WEDGE",
+        "description": "iceberg wedge with diced tomatoes, cucumber, bacon, blue cheese crumbles, cornbread croutons, and choice of dressing",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "CHOPPED KALE SALAD",
+        "description": "kale, tomato, cucumber, carrot, dried sweet corn and red onion tossed in roasted garlic-citrus vinaigrette",
+        "cost": 13,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "NOT HOT CHICKEN",
+    "menuItems": [
+      {
+        "menuItem": "BRICK-TATTOOED CHICKEN",
+        "description": "boneless, skin-on chicken breast stuffed with sage and goat cheese, seared under brick, and served with sautéd bell peppers, onions, spinach, and roasted potatoes garnished with cilantro-lime vinaigrette",
+        "cost": 17,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BEER BUTT CHICKEN",
+        "description": "half or whole smoked \"beer butt\" chicken served with dill pickles, white bbq sauce and coleslaw. Half.",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BEER BUTT CHICKEN",
+        "description": "half or whole smoked \"beer butt\" chicken served with dill pickles, white bbq sauce and coleslaw. Whole",
+        "cost": 22,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "NASHVILLE HOT ANDOUILLE PO' BOY",
+        "description": "chicken andouille (choose heat level) on french baguette with tomato, lettuce, and pickles served with choice of side",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "NASHVILLE HOT CATFISH PO' BOY",
+        "description": "farm-raised catfish (choose heat level) on french baguette with tomato, lettuce, and pickles served with choice of side",
+        "cost": 17,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "LOADED BURGER",
+        "description": "half pound ground chuck served open faced with lettuce, onion, tomato, dill pickles and pawpaw sauce, topped with cheddar cheese and a sunny side up egg with choice of side",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "PIMENTO CHEESE SMASHBURGER",
+        "description": "half pound ground chuck topped with homemade pimento cheese, lettuce, tomato, dill pickles and onion served with choice of side",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "RANCHER'S PIE",
+        "description": "our play on shepherd's pie with smoked chicken, peas, carrots, and corn topped with mashed potatoes and melted cheddar and served over a hoe cake",
+        "cost": 15,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "SIDES",
+    "menuItems": [
+      {
+        "menuItem": "skillet mac n' cheese",
+        "description": "small",
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "skillet mac n' cheese",
+        "description": "large",
+        "cost": 6,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "french fries",
+        "description": "small",
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "french fries",
+        "description": "large",
+        "cost": 6,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "mashed potatoes & gravy",
+        "description": "small",
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "mashed potatoes & gravy",
+        "description": "large",
+        "cost": 6,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "piggy chips",
+        "description": "small",
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "piggy chips",
+        "description": "large",
+        "cost": 6,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "collard greens",
+        "description": "small",
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "collard greens",
+        "description": "large",
+        "cost": 6,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "coleslaw",
+        "description": "small",
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "coleslaw",
+        "description": "large",
+        "cost": 6,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "BEVERAGES",
+    "menuItems": [
+      {
+        "menuItem": "iced tea",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "sweet tea",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "pepsi",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "diet pepsi",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "dr pepper",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "orange crush",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "sierra mist",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "mountain dew",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "cheerwine",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "lemonade",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "milk",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "coffee",
+        "description": null,
+        "cost": 3,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "TASTY TREATS",
+    "menuItems": [
+      {
+        "menuItem": "BANANA PUDDING",
+        "description": "scratch-made banana pudding served in a waffle bowl, topped with sea salt caramel and whipped cream",
+        "cost": 8,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "DEEP FRIED FUDGE PIES",
+        "description": "homemade fudge pies fried, dusted with powdered sugar and served with vanilla ice cream and bourbon glaze",
+        "cost": 9,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BOURBON GLAZED BEIGNETS",
+        "description": "perfectly fried beignets topped with bourbon glaze and a heavy dusting of powdered sugar",
+        "cost": 7,
+        "additionalInfo": null
+      }
+    ]
+    
+  },
+  {
+    "category": "BOOZY SLUSHIES",
+    "menuItems": [
+      {
+        "menuItem": "CHERRY LIMEADE",
+        "description": "smirnoff lime vodka, grenadine, sour. 12oz.",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "CHERRY LIMEADE",
+        "description": "smirnoff lime vodka, grenadine, sour. 20oz.",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "WATERMELON FROSE",
+        "description": "rosé, watermelon puree, sour. 12oz.",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "WATERMELON FROSE",
+        "description": "rosé, watermelon puree, sour. 20oz",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FROZEN LEMONADE",
+        "description": "our play on an all-time classic featuring old dominick vodka! 12oz",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FROZEN LEMONADE",
+        "description": "our play on an all-time classic featuring old dominick vodka! 20oz",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BLUE RASPBERRY",
+        "description": "smirnoff raspberry vodka, lemonade, blue curacao. 12oz",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BLUE RASPBERRY",
+        "description": "smirnoff raspberry vodka, lemonade, blue curacao. 20oz",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "WILLIE POP",
+        "description": "layered blue raspberry, frozen lemonade, and cherry limeade. your inner child will thank you. 12oz.",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "WILLIE POP",
+        "description": "layered blue raspberry, frozen lemonade, and cherry limeade. your inner child will thank you. 20oz",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FROMOSA",
+        "description": "that's right! a frozen mimosa! our play on a brunch classic! 11oz",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FROMOSA",
+        "description": "that's right! a frozen mimosa! our play on a brunch classic! 20oz",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FROZEN MARGARITA",
+        "description": "party fowl's signature margarita recipe, frozen. 12oz",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FROZEN MARGARITA",
+        "description": "party fowl's signature margarita recipe, frozen. 20oz",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "LOAD IT! +",
+        "description": "deep eddy lime / deep eddy sweet tea / deep eddy peach / deep eddy cranberry / pickers blueberry / pickers blood orange / pickers pineapple / smirnoff watermelon mint / bacardi coconut rum",
+        "cost": 5,
+        "additionalInfo": "Add an extra kick!"
+      },
+      {
+        "menuItem": "FLOAT IT! +",
+        "description": "mango / peach / prickly pear / raspberry / strawberry / watermelon",
+        "cost": 2,
+        "additionalInfo": "Add some extra flavor!"
+      },
+      {
+        "menuItem": "LOADED RIUNITE FROMOSA",
+        "description": "jumbo 20oz formosa with a riunite mini bottle of your choice (riunite lambrusco / peach moscato / sangria)",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "LOADED RIUNITE MARGARITA",
+        "description": "jumbo 20oz frozen margarita with a riunite mini bottle of your choice (riunite lambrusco / peach moscato / sangria)",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BOURBON BUSHWACHER",
+        "description": "adult chocolate milkshake and nashville favorite, the party fowl way… with bourbon! 12oz.",
+        "cost": 10,
+        "additionalInfo": "LOAD IT +$5: blue chair bay banana rum cream, jameson irish whiskey, ole smoky salty caramel whiskey, whisper creek mocha, jackson morgan peppermint mocha, skrrewball peanut butter whiskey, rumchata"
+      },
+      {
+        "menuItem": "BOURBON BUSHWACHER",
+        "description": "adult chocolate milkshake and nashville favorite, the party fowl way… with bourbon! 20oz.",
+        "cost": 15,
+        "additionalInfo": "LOAD IT +$5: blue chair bay banana rum cream, jameson irish whiskey, ole smoky salty caramel whiskey, whisper creek mocha, jackson morgan peppermint mocha, skrrewball peanut butter whiskey, rumchata"
+      },
+      {
+        "menuItem": "SEASONAL BOOZY SLUSHY",
+        "description": "ask your server for details ",
+        "cost": null,
+        "additionalInfo": "Price Varies"
+      }
+    ]
+    
+  },
+  {
+    "category": "COCKTAILS",
+    "menuItems": [
+      {
+        "menuItem": "CUCUMBER GIN + TONIC",
+        "description": "gin, cucumber, tonic, chareau aloe liqueur",
+        "cost": 9,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "CLASSIC MARGARITA",
+        "description": "tequila, agave nectar, triple sec, lime juice",
+        "cost": 8,
+        "additionalInfo": "FLOAT IT +$2: peach / strawberry / mango / raspberry / prickly pear / watermelon"
+      },
+      {
+        "menuItem": "SEA SALT-VANILLA HONEY \"NEW-FASHIONED\"",
+        "description": "old forester bourbon, angostura bitters, sea salt-vanilla honey, garnished with an orange peel",
+        "cost": 12,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "MUSIC CITY MULE",
+        "description": "choice of nashville's own pickers vodka (pickers original vodka / pickers blueberry / pickers pineapple / pickers blood orange), ginger beer, lime juice, in a copper mug",
+        "cost": 9,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "MIMOSA",
+        "description": "champagne with your choice of orange, pineapple, cranberry, or grapefruit juice",
+        "cost": 7,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BLOODY MARY",
+        "description": "choice of walker's bloody mary mix or party fowl nashville hot bloody mary mix and nashville's own pickers vodka!",
+        "cost": 8,
+        "additionalInfo": "Add a Miller High Life Pony to any Bloody +$3"
+      },
+      {
+        "menuItem": "BLOODY MARIA",
+        "description": "choice of walker's bloody mary mix or party fowl nashville hot bloody mary mix and dulce vida blanco tequila",
+        "cost": 8,
+        "additionalInfo": "UPGRADE: dulce vida reposado +$2 / dulce vida añejo +$3"
+      }
+    ]
+    
+  },
+  {
+    "category": "BOTTLES & CANS",
+    "menuItems": [
+      {
+        "menuItem": "corona",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "corona light",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "dos equis lager",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "stella artois",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "bud light",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "budweiser",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "coors light",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "michelob ultra",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "miller lite",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "miller high life pony (7oz)",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "pbr 16oz",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "truly sparkling hard seltzer",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "truly seasonal (ask your bartender)",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      }
+    ]
+    
+  },
+  {
+    "category": "NON-ALCOHOLIC",
+    "menuItems": [
+      {
+        "menuItem": "heineken 0.0",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "red bull",
+        "description": "original, sugar-free, blue edition, yellow edition, red edition, white edition",
+        "cost": null,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "WINE",
+    "menuItems": [
+      {
+        "menuItem": "bota box cabernet sauvignon",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "bota box pinot noir",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "bota box rosé",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "bota box pinot grigio",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "bota box chardonnay",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "WEEKEND BRUNCH - FOR THE TABLE",
+    "menuItems": [
+      {
+        "menuItem": "BOURBON GLAZED BEIGNETS",
+        "description": "perfect, golden brown, french donuts with bourbon glazed and a heavy dusting of powdered sugar",
+        "cost": 7,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "FRIED CHEESE GRIT CAKES",
+        "description": "fried cheese grit cakes served with our house-made strawberry-jalapeño jam",
+        "cost": 10,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "APPLE BUTTER & BISCUITS",
+        "description": "fresh, fluffy biscuits served hot with our house-made cinnamon whiskey apple butter and butter",
+        "cost": 8,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "WEEKEND BRUNCH - ENTREES",
+    "menuItems": [
+      {
+        "menuItem": "NASHVILLE HOT CHICKEN BENEDICT",
+        "description": "hot chicken breast (choose heat level) served over an english muffin and topped with two poached eggs and fresh chipotle-adobo hollandaise, served with lyonnaise potatoes",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "LOADED HOT CHICKEN BISCUIT",
+        "description": "scratch-made, open-faced buttermilk biscuit topped with hot chicken (choose heat level), sawmill gravy, two eggs prepared your way, and lyonnaise potatoes",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BIRD IN A BLANKET",
+        "description": "three ultra-thin pancakes filled with smoked chicken in a rich cream sauce. served with lyonnaise potatoes",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "NASHVILLE HOT LOCO MOCO",
+        "description": "hot chicken (choose heat level) served over dirty rice, smothered in gravy, and topped with two eggs prepared your way",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "SMOKED CHICKEN HASH",
+        "description": "diced sweet potato, diced vidalia onion, and pulled smoked chicken sautéed in garlic and green onion butter, topped with smoked gouda, and finished off with two sunny side-up eggs and a side of toast",
+        "cost": 15,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BRUNCH BURRITO",
+        "description": "hot chicken (choose heat level), scrambled eggs, bacon, cheddar cheese, lyonnaise potatoes, peppers and onions, wrapped in a flour tortilla, served on tomato and a bed of mexican cowboy beans, topped with queso cheese and pico de gallo",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN-PIMENTO CHEESE OMELET",
+        "description": "four egg omelet cooked in our garlic-bacon butter filled with hot chicken (choose heat level) and house-made pimento cheese served with lyonnaise potatoes",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "HOT CHICKEN & STUFFED FRENCH TOAST",
+        "description": "thick-cut, house-made cinnamon brioche stuffed with apples and bourbon cream cheese, dipped in cinnamon custard, skillet-fried, served with hot chicken (choose heat level) and bourbon syrup",
+        "cost": 16,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "BRUNCH FOR TWO - A PARTY FOWL SIGNATURE!",
+        "description": "55oz bloody mary topped with two whole fried cornish game hens, two whole scotch eggs, eight fried okra, and whole avocado",
+        "cost": 55,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "KIDS MENU",
+    "menuItems": [
+      {
+        "menuItem": "CHICKEN TENDERS",
+        "description": "two southern fried chicken tenders with piggy chips or fries and your choice of dipping sauce",
+        "cost": 6,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "GRILLED CHEESE",
+        "description": "buttered texas toast grilled with a slice of cheddar cheese and your choice of piggy chips or fries",
+        "cost": 5,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "SKILLET MAC 'N' CHEESE",
+        "description": "creamy mac 'n' cheese topped with melted cheddar",
+        "cost": 5,
+        "additionalInfo": null
+      }
+    ]
+  },
+  {
+    "category": "KIDS BRUNCH - FRIDAY-SUNDAY TIL 2PM",
+    "menuItems": [
+      {
+        "menuItem": "MINI BRUNCH",
+        "description": "one egg, one bacon strip, one biscuit",
+        "cost": 6,
+        "additionalInfo": null
+      },
+      {
+        "menuItem": "MINI HOTCAKES",
+        "description": "two pancakes, one bacon strip",
+        "cost": 6,
+        "additionalInfo": null
+      }
+    ]
+  }
+]
