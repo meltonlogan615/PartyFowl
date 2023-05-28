@@ -13,7 +13,6 @@
 		326D4C832A1EBC8000BBA7FA /* HouseWedgeMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C822A1EBC8000BBA7FA /* HouseWedgeMod.swift */; };
 		326D4C852A1EBCAE00BBA7FA /* SmokedWingsMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C842A1EBCAE00BBA7FA /* SmokedWingsMod.swift */; };
 		326D4C882A1EBD8A00BBA7FA /* DressingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C872A1EBD8A00BBA7FA /* DressingOption.swift */; };
-		326D4C8A2A1EBDC400BBA7FA /* KaleSaladMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C892A1EBDC400BBA7FA /* KaleSaladMod.swift */; };
 		329632982A03E974004E8E40 /* PFNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632972A03E974004E8E40 /* PFNavController.swift */; };
 		3296329A2A055700004E8E40 /* HoursView+MainHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632992A055700004E8E40 /* HoursView+MainHours.swift */; };
 		3296329D2A0558E7004E8E40 /* HoursView+Brunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296329C2A0558E7004E8E40 /* HoursView+Brunch.swift */; };
@@ -79,7 +78,6 @@
 		326D4C822A1EBC8000BBA7FA /* HouseWedgeMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseWedgeMod.swift; sourceTree = "<group>"; };
 		326D4C842A1EBCAE00BBA7FA /* SmokedWingsMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokedWingsMod.swift; sourceTree = "<group>"; };
 		326D4C872A1EBD8A00BBA7FA /* DressingOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressingOption.swift; sourceTree = "<group>"; };
-		326D4C892A1EBDC400BBA7FA /* KaleSaladMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleSaladMod.swift; sourceTree = "<group>"; };
 		329632972A03E974004E8E40 /* PFNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFNavController.swift; sourceTree = "<group>"; };
 		329632992A055700004E8E40 /* HoursView+MainHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+MainHours.swift"; sourceTree = "<group>"; };
 		3296329C2A0558E7004E8E40 /* HoursView+Brunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+Brunch.swift"; sourceTree = "<group>"; };
@@ -171,7 +169,6 @@
 				326D4C822A1EBC8000BBA7FA /* HouseWedgeMod.swift */,
 				326D4C842A1EBCAE00BBA7FA /* SmokedWingsMod.swift */,
 				326D4C872A1EBD8A00BBA7FA /* DressingOption.swift */,
-				326D4C892A1EBDC400BBA7FA /* KaleSaladMod.swift */,
 			);
 			path = MenuItemModifications;
 			sourceTree = "<group>";
@@ -605,7 +602,6 @@
 				326D4C812A1EBC5D00BBA7FA /* PoutineMod.swift in Sources */,
 				32A8890A2A0B228800FABC61 /* MenuViewModel.swift in Sources */,
 				32A889302A1654CC00FABC61 /* OrderViewController.swift in Sources */,
-				326D4C8A2A1EBDC400BBA7FA /* KaleSaladMod.swift in Sources */,
 				32A8891E2A0C063D00FABC61 /* PFViewModel.swift in Sources */,
 				32A8891A2A0C058400FABC61 /* MenuItemCell.swift in Sources */,
 				329632A12A055904004E8E40 /* HoursView+KidsEatFree.swift in Sources */,

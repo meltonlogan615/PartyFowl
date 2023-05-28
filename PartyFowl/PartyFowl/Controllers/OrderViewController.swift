@@ -74,7 +74,7 @@ extension OrderViewController {
       button.addTarget(self, action: #selector(optionSelected), for: .touchUpInside)
     }
   }
-  
+
   @objc
   func optionSelected(_ sender: UIButton) {
     selectedIndex = sender.tag

@@ -6,61 +6,98 @@
         "menuItem": "NASHVILLE HOT HALF BIRD",
         "description": "welcome to Nashville! half bird (choose heat level) served on texas toast topped with dill pickles and served with a side of coleslaw",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "extraSauces": true
       },
       {
         "menuItem": "HOT CHICKEN N' CHEDDAR",
         "description": "hot chicken (choose heat level), extra sharp cheddar, bacon, lettuce, tomato, and dill pickle on grilled brioche bun with ranch served with choice of side",
         "cost": 18,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "modifications": [ "No Lettuce", "No Tomato", "No Bacon", "No Cheese", "No Ranch", "No Pickles", "Ranch On Side", "Chicken N Cheese ONLY"],
+        "extraSauces": true
+        
       },
       {
         "menuItem": "HOT CHICKEN AND BEIGNETS",
         "description": "boneless chicken breast (choose heat level) served on texas toast, topped with dill pickles, served with bourbon glazed beignets and coleslaw",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["coleslaw", "no coleslaw"],
+        "modifications": ["No Pickle", "No Powdered Sugar", "No Bourbon Glaze", "Bourbon Glaze On Side"],
+        "extraSauces": true
       },
       {
         "menuItem": "NASHVILLE HOT CHICKEN FRIED CHICKEN",
         "description": "boneless, thinly-pounded hot chicken breast (choose heat level) on a bed of mashed potatoes, topped with sawmill gravy, served with a side of collard greens",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "modifications": ["gravy on side", "no gravy"],
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"]
       },
       {
         "menuItem": "HOT CHICKEN STREET TACOS",
         "description": "two tacos with hot chicken (choose heat level), jicama slaw, charred street corn, queso fresco, and creme fraiche on double white corn tortillas melded with jack cheese, served with mexican white beans",
         "cost": 17,
-        "additionalInfo": "additional tacos $7/each"
+        "additionalInfo": "additional tacos $7/each",
+        "chickenStyle": true,
+        "modifications": ["No Beans", "No Cheese Crumble", "Add Queso Cheese (1.00)", "No Corn", "No Jicama Slaw", "No Creme Fraiche", "Side Avocado (1.50)", "Side Jalapenos (0.50)", "Side Pico (1.00)"]
       },
       {
         "menuItem": "HOT CHICKEN QUESADILLA",
         "description": "crispy, fried flour tortilla filled with shredded cheddar & jack cheese with fresh pico de gallo, and hot chicken (choose heat level), served with guacamole, shredded lettuce, and sour cream on the side",
         "cost": 18,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "modifications": ["No Cheese", "No Guacamole", "No Sour Cream", "No Lettuce", "No Pico", "Pico On Side", "Add SD 4oz Guac (3.00)"]
       },
       {
         "menuItem": "HOT CHICKEN PO' BOY",
         "description": "hot chicken (choose heat level) on a french baguette with tomato, lettuce, dill pickles served with white bbq sauce and choice of side",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "modifications": ["no lettuce", "no tomato", "no pickle", "add cheddar (1.00)"],
+        "extraSauces": true
       },
       {
         "menuItem": "HOT CHICKEN CUBAN SANDWICH",
         "description": "hot chicken (choose heat level), swiss cheese, dill pickles, yellow mustard, and chimichurri on buttered, pressed french baguette served with choice of side",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "modifications": ["grilled", "no pickles", "no cheese", "no mustard", "no chimichurri", "chimichurri on side"],
+        "extraSauces": true
       },
       {
         "menuItem": "HOT CHICKEN TENDERS",
         "description": "jumbo hot chicken tenders (choose heat level) on texas toast topped with dill pickles, served with your choice of dipping sauce and choice of side. Order of 3.",
         "cost": 16,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "dressingChoice": true,
+        "modifications": ["grilled", "no pickle"],
+        "extraSauces": true
       },
       {
         "menuItem": "HOT CHICKEN TENDERS",
         "description": "jumbo hot chicken tenders (choose heat level) on texas toast topped with dill pickles, served with your choice of dipping sauce and choice of side. Order of 4.",
         "cost": 18,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "dressingChoice": true,
+        "modifications": ["grilled", "no pickle"],
+        "extraSauces": true
       },
       {
         "menuItem": "ADDITIONAL DIPPING SAUCES",
@@ -95,7 +132,10 @@
         "menuItem": "HOT CHICKEN NACHOS",
         "description": "perfect for sharing! bacon-fried tortilla chips topped with white beans, cheese, avocado, green onions, lettuce, pico de gallo, fresh jalapeños, sour cream and of course… hot chicken (choose heat level)",
         "cost": 19,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "syleChoice": true,
+        "extraSauces": true,
+        "modifications": ["no white beans", "no cheese", "no avocado", "no jalapeno", "no green onions", "no lettuce", "no pico", "no sour cream", "sour cream on side", "jalapenos on side", "no chips", "add chicken breast (7.00)", "avocado on side", "pico on side", "add queso cheese (1.00)"]
       },
       {
         "menuItem": "PIGGY CHIPS",
@@ -107,7 +147,8 @@
         "menuItem": "HOT CHICKEN CHORIZO QUESO",
         "description": "melted mexican cheeses seasoned with peppers, topped with hot chicken chorizo and served with bacon-fried tortilla chips",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "modifications": ["no chorizo", "chorizo on side", "no green onion", "green onion on side"]
       },
       {
         "menuItem": "PIMENTO CHEESE + CHEERWINE BACON JAM",
@@ -131,31 +172,42 @@
         "menuItem": "CHICKEN LIVER BAM BAM",
         "description": "fried chicken livers tossed in bam bam sauce",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "sauceOnSide": false
       },
       {
         "menuItem": "HOT CHICKEN POUTINE",
         "description": "french fries with cheddar cheese curds, roasted chicken gravy, topped with hot chicken (choose heat level) and chopped green onion",
         "cost": 16,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "modifications": ["no gravy", "no green onion", "no cheese curds", "add chicken breast (7.00)", "gravy on side"]
       },
       {
         "menuItem": "LACQUERED CHICKEN SKEWER",
         "description": "1lb marinated chicken, slow cooked and flash fried to order, tossed in choice of memphis dry rub, tn whiskey bbq, jamaican jerk, buffalo, mild, medium, nashville hot, or poultrygeist, served with choice of dipping sauce",
         "cost": 12,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": true
       },
       {
         "menuItem": "SMOKED WINGS",
         "description": "slow smoked and flash fried to order, tossed in memphis dry rub, jamaican jerk, jack daniels bbq, buffalo, mild, medium, nashville hot, or poultrygeist. served with veggie spears and choice of dipping sauce. Order of 6.",
         "cost": 13,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "dressingChoice": true,
+        "chickenStyle": true,
+        "extraSauces": true
       },
       {
         "menuItem": "SMOKED WINGS",
         "description": "slow smoked and flash fried to order, tossed in memphis dry rub, jamaican jerk, jack daniels bbq, buffalo, mild, medium, nashville hot, or poultrygeist. served with veggie spears and choice of dipping sauce. Order of 10.",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "dressingChoice": true,
+        "chickenStyle": true,
+        "extraSauces": true
       }
     ]
 
@@ -167,34 +219,63 @@
         "menuItem": "NASHVILLE HOT DECONSTRUCTED COBB SALAD",
         "description": "best salad in nashville! chopped romaine with tomato, cucumber, bacon, blue cheese, smoked hard-boiled eggs, avocado, hot chicken (choose heat level) and choice of dressing",
         "cost": 19,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenSyle": true,
+        "modifications": ["no avocado", "no bacon", "no blue cheese crumbles", "no cucumber", "no smoked egg", "no tomato", "sub spinach", "sub kale (2.00)", "no pickles"],
+        "extraSauces": true,
+        "dressingChoice": true
       },
       {
         "menuItem": "CHICKEN GUMBO",
         "description": "cup of smoked chicken gumbo served with dirty rice and a slice of french baguette",
         "cost": 9,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "riceChoice": ["rice", "no rice"]
       },
       {
         "menuItem": "SIDE SALAD",
         "description": "romaine lettuce, tomato, cucumber served with choice of dressing\n+(substitute a side salad for traditional side with entree +$2.50)",
         "cost": 5,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "dressingChoice": true,
+        "addChicken": ["grilled chicken plain", "grilled chicken mild", "grilled chicken medium", "grilled chicken hot", "grilled chicken poultrygeist", "grilled chicken buffalo"]
       },
       {
         "menuItem": "HOUSE WEDGE",
         "description": "iceberg wedge with diced tomatoes, cucumber, bacon, blue cheese crumbles, cornbread croutons, and choice of dressing",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "modifications": ["no diced tomatos", "no cucumber", "no bacon", "no blue cheese crumbles", "no corn bread croutons"],
+        "extraSauces": true,
+        "dresingChoice": true,
+        "addChicken": ["tossed southern fried",
+          "tossed mild",
+          "tossed medium",
+          "tossed nashville hot",
+          "tossed poultrygeist",
+          "tossed grilled",
+          "tossed buffalo",
+          "tossed jack daniel's BBQ",
+          "tossed Jerk",
+          "tossed memphis dry rub",
+          "SF onside mild",
+          "SF onside medium",
+          "SF onside hot",
+          "SF onside poult",
+          "SF onside buff",
+          "SF onside JD BBQ",
+          "SF onside jerk",
+        "SF onside memphis dry rub"]
       },
       {
         "menuItem": "CHOPPED KALE SALAD",
         "description": "kale, tomato, cucumber, carrot, dried sweet corn and red onion tossed in roasted garlic-citrus vinaigrette",
         "cost": 14,
-        "additionalInfo": null
-      }
-    ]
-  },
+        "additionalInfo": null,
+        "modifications": ["dressing on side", "no cucumber", "no corn", "sub spinach", "no tomoato", "no carrot", "no red onion"]
+          }
+        ]
+      },
   {
     "category": "NOT HOT CHICKEN",
     "menuItems": [
@@ -202,7 +283,9 @@
         "menuItem": "BRICK-TATTOOED CHICKEN",
         "description": "boneless, skin-on chicken breast stuffed with sage and goat cheese, seared under brick, and served with sautéd bell peppers, onions, spinach, and roasted potatoes garnished with cilantro-lime vinaigrette",
         "cost": 19,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "modifications": ["no potato", "no cilantro lime", "cilantro lime on side", "no spinach"],
+        "sides": ["small fries (3.00)", "small mac and cheese (3.00)", "small mashed potatoes (w gravy) (3.00)", "small mashed potatoes (no gravy) (3.00)", "small greens (3.00)", "small slaw (3.00)", "large fries (6.00)", "large mac and cheese (6.00)", "large mashed potatoes (w gravy) (6.00)", "large mashed potatoes (no gravy) (6.00)", "large greens (6.00)", "large slaw (6.00)"]
       },
       {
         "menuItem": "BEER BUTT CHICKEN",
@@ -220,31 +303,48 @@
         "menuItem": "NASHVILLE HOT ANDOUILLE PO' BOY",
         "description": "chicken andouille (choose heat level) on french baguette with tomato, lettuce, and pickles served with choice of side",
         "cost": 15,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "modification": ["no lettuce", "no tomato", "no pickle", "add cheddar (1.00)"],
+        "extraSauces": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "style": ["tossed mild", "tossed medium", "tossed hot", "tossed poultrygeist", "no sauce", "onside mild", "onside medium", "onside hot", "onside poultrygeist"]
       },
       {
         "menuItem": "NASHVILLE HOT CATFISH PO' BOY",
         "description": "farm-raised catfish (choose heat level) on french baguette with tomato, lettuce, and pickles served with choice of side",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "modification": ["no lettuce", "no tomato", "no pickle", "add cheddar (1.00)"],
+        "extraSauces": true
       },
       {
         "menuItem": "LOADED BURGER",
         "description": "half pound ground chuck served open faced with lettuce, onion, tomato, dill pickles and pawpaw sauce, topped with cheddar cheese and a sunny side up egg with choice of side",
         "cost": 16,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "modification": ["no bun", "no cheese", "no egg", "no lettuce", "no onion", "no paw paw", "no pickle", "no tomato", "egg over medium", "egg over hard", "only cheese", "meat and bun only", "no LTOP", "only cheese and egg"],
+        "tempOptions": ["rare", "medium rare", "medium", "medium well", "well done"],
+        "extraSauces": true
       },
       {
         "menuItem": "PIMENTO CHEESE SMASHBURGER",
         "description": "half pound ground chuck topped with homemade pimento cheese, lettuce, tomato, dill pickles and onion served with choice of side",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
+        "modification": ["no bun", "no cheese", "no egg", "no lettuce", "no onion", "no paw paw", "no pickle", "no tomato", "egg over medium", "egg over hard", "only cheese", "meat and bun only", "no LTOP", "only cheese and egg"],
+        "tempOptions": ["rare", "medium rare", "medium", "medium well", "well done"],
+        "extraSauces": true
       },
       {
         "menuItem": "RANCHER'S PIE",
         "description": "our play on shepherd's pie with smoked chicken, peas, carrots, and corn topped with mashed potatoes and melted cheddar and served over a hoe cake",
         "cost": 16,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "modifications": ["no cheese", "no hoe cake", "mashed potato on side", "no green onion", "extra hoe cake (1.00)", "no mashed potatoes"]
       }
     ]
   },
@@ -425,7 +525,6 @@
         "additionalInfo": null
       }
     ]
-    
   },
   {
     "category": "BOOZY SLUSHIES",
@@ -874,19 +973,25 @@
         "menuItem": "CHICKEN TENDERS",
         "description": "two southern fried chicken tenders with piggy chips or fries and your choice of dipping sauce",
         "cost": 9,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "sides": ["piggy chips", "fries", "no fries", "no chips"],
+        "extraSauces": true
       },
       {
         "menuItem": "GRILLED CHEESE",
         "description": "buttered texas toast grilled with a slice of cheddar cheese and your choice of piggy chips or fries",
         "cost": 7,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "sides": ["piggy chips", "fries", "no fries", "no chips"],
+        "extraSauces": true
       },
       {
         "menuItem": "SKILLET MAC 'N' CHEESE",
         "description": "creamy mac 'n' cheese topped with melted cheddar",
         "cost": 6,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "extraSauces": true
       }
     ]
   },

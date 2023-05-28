@@ -11,8 +11,6 @@ enum DeliveryMethod: String, Codable, CaseIterable {
   case pickup, grubhub
 }
 
-
-
 struct PFItemOrder: Codable {
   var customerName: String
   var itemName: String
