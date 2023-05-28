@@ -30,8 +30,8 @@ extension OrderView {
 
     tableView = UITableView()
     tableView.translatesAutoresizingMaskIntoConstraints = false
-    tableView.register(UITableViewCell.self,
-                       forCellReuseIdentifier: "cell")
+    tableView.register(OrderCell.self,
+                       forCellReuseIdentifier: OrderCell.reuseID)
   }
 
   private func layoutOrderView() {

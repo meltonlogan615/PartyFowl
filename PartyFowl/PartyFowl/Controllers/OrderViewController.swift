@@ -54,8 +54,20 @@ extension OrderViewController: UITableViewDataSource {
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let item = menuResults[selectedIndex].menuItems[indexPath.item]
-    let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-    cell.textLabel?.text = item.menuItem
+    guard let cell = orderView.tableView.dequeueReusableCell(withIdentifier: OrderCell.reuseID,
+                                                             for: indexPath) as? OrderCell else {
+      return UITableViewCell()
+    }
+    
+    cell.itemLabel.text = item.menuItem
+    if let cost = item.cost {
+      if cost.truncatingRemainder(dividingBy: 1) == 0 {
+        cell.priceLabel.text = String(format: "%.0f", cost)
+      } else {
+        cell.priceLabel.text = String(format: "%.2f", cost)
+      }
+    }
+    cell.descriptionLabel.text = item.description
     return cell
   }
 }
