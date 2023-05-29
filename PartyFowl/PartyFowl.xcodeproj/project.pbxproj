@@ -13,6 +13,9 @@
 		326D4C832A1EBC8000BBA7FA /* HouseWedgeMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C822A1EBC8000BBA7FA /* HouseWedgeMod.swift */; };
 		326D4C852A1EBCAE00BBA7FA /* SmokedWingsMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C842A1EBCAE00BBA7FA /* SmokedWingsMod.swift */; };
 		326D4C882A1EBD8A00BBA7FA /* DressingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C872A1EBD8A00BBA7FA /* DressingOption.swift */; };
+		326D4CC62A2324CE00BBA7FA /* OrderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4CC52A2324CE00BBA7FA /* OrderItemView.swift */; };
+		326D4CC82A23280400BBA7FA /* OrderItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4CC72A23280400BBA7FA /* OrderItemViewController.swift */; };
+		326D4CCA2A23286A00BBA7FA /* TableView-PresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4CC92A23286A00BBA7FA /* TableView-PresentView.swift */; };
 		329632982A03E974004E8E40 /* PFNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632972A03E974004E8E40 /* PFNavController.swift */; };
 		3296329A2A055700004E8E40 /* HoursView+MainHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632992A055700004E8E40 /* HoursView+MainHours.swift */; };
 		3296329D2A0558E7004E8E40 /* HoursView+Brunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296329C2A0558E7004E8E40 /* HoursView+Brunch.swift */; };
@@ -78,6 +81,9 @@
 		326D4C822A1EBC8000BBA7FA /* HouseWedgeMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseWedgeMod.swift; sourceTree = "<group>"; };
 		326D4C842A1EBCAE00BBA7FA /* SmokedWingsMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokedWingsMod.swift; sourceTree = "<group>"; };
 		326D4C872A1EBD8A00BBA7FA /* DressingOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressingOption.swift; sourceTree = "<group>"; };
+		326D4CC52A2324CE00BBA7FA /* OrderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemView.swift; sourceTree = "<group>"; };
+		326D4CC72A23280400BBA7FA /* OrderItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemViewController.swift; sourceTree = "<group>"; };
+		326D4CC92A23286A00BBA7FA /* TableView-PresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView-PresentView.swift"; sourceTree = "<group>"; };
 		329632972A03E974004E8E40 /* PFNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFNavController.swift; sourceTree = "<group>"; };
 		329632992A055700004E8E40 /* HoursView+MainHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+MainHours.swift"; sourceTree = "<group>"; };
 		3296329C2A0558E7004E8E40 /* HoursView+Brunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+Brunch.swift"; sourceTree = "<group>"; };
@@ -227,6 +233,7 @@
 				32A889162A0C028900FABC61 /* Stack-RemoveAllSubViews.swift */,
 				32A889232A13DB9600FABC61 /* TableView-ScrollToTop.swift */,
 				32A889252A147ABF00FABC61 /* UIStackView+ScrollToCenter.swift */,
+				326D4CC92A23286A00BBA7FA /* TableView-PresentView.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -236,6 +243,7 @@
 			children = (
 				32A889322A16555200FABC61 /* OrderView.swift */,
 				32A889342A1655D900FABC61 /* OrderCell.swift */,
+				326D4CC52A2324CE00BBA7FA /* OrderItemView.swift */,
 			);
 			path = LocationOrdering;
 			sourceTree = "<group>";
@@ -380,6 +388,7 @@
 				329632A62A093D00004E8E40 /* MenuViewController.swift */,
 				32A889042A0AF3BC00FABC61 /* Tester.swift */,
 				32A8892F2A1654CC00FABC61 /* OrderViewController.swift */,
+				326D4CC72A23280400BBA7FA /* OrderItemViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -555,6 +564,7 @@
 			files = (
 				32A889262A147ABF00FABC61 /* UIStackView+ScrollToCenter.swift in Sources */,
 				32CB54B52A01807600A61BCA /* LocationViewController.swift in Sources */,
+				326D4CCA2A23286A00BBA7FA /* TableView-PresentView.swift in Sources */,
 				3296329A2A055700004E8E40 /* HoursView+MainHours.swift in Sources */,
 				32A889382A165CB000FABC61 /* PFOrder.swift in Sources */,
 				329632AC2A098B1A004E8E40 /* LocationMapView.swift in Sources */,
@@ -591,8 +601,10 @@
 				326D4C852A1EBCAE00BBA7FA /* SmokedWingsMod.swift in Sources */,
 				32D6D98B2A00774C0048299F /* LoyaltySignUpView.swift in Sources */,
 				32CB54B32A01708400A61BCA /* PFMenuOption.swift in Sources */,
+				326D4CC82A23280400BBA7FA /* OrderItemViewController.swift in Sources */,
 				32D6D97F2A0074040048299F /* LoyaltyRewardsTermsView.swift in Sources */,
 				3296329D2A0558E7004E8E40 /* HoursView+Brunch.swift in Sources */,
+				326D4CC62A2324CE00BBA7FA /* OrderItemView.swift in Sources */,
 				32A889052A0AF3BC00FABC61 /* Tester.swift in Sources */,
 				329632982A03E974004E8E40 /* PFNavController.swift in Sources */,
 				32D6D97D2A0073D70048299F /* TermsOfUseView.swift in Sources */,
