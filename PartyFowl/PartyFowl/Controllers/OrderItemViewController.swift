@@ -13,13 +13,13 @@ class OrderItemViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    itemView.fillStack(with: item)
     navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back",
                                                        image: UIImage(systemName: "chevron.left"),
                                                        target: self,
                                                        action: #selector(dismissView))
 
     styleOrderView()
+    itemView.fillStack(with: item)
     layoutOrderView()
   }
 }
@@ -28,8 +28,6 @@ extension OrderItemViewController {
   private func styleOrderView() {
     itemView = OrderItemView()
     itemView.translatesAutoresizingMaskIntoConstraints = false
-    itemView.itemLabel.text = item.menuItem
-    itemView.descriptionLabel.text = item.description
   }
 
   private func layoutOrderView() {
