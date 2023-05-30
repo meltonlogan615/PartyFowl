@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum ChickenStyle: String, Codable, CaseIterable {
-  case tossedSoutherFrield = "tossed Souther Frield"
+enum PFChickenStyle: String, Codable, CaseIterable {
+  case tossedSoutherFrield = "tossed Southern Frield"
   case tossedMild = "tossed mild"
   case tossedMedium = "tossed medium"
   case tossedNashvilleHot = "tossed nashville hot"

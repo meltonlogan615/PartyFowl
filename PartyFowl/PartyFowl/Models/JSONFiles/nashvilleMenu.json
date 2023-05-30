@@ -8,8 +8,11 @@
         "cost": 17,
         "additionalInfo": null,
         "chickenStyle": true,
+        "dressingChoice": false,
         "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
-        "extraSauces": true
+        "modifications": null,
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN N' CHEDDAR",
@@ -17,10 +20,11 @@
         "cost": 18,
         "additionalInfo": null,
         "chickenStyle": true,
+        "dressingChoice": false,
         "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
-        "modifications": [ "No Lettuce", "No Tomato", "No Bacon", "No Cheese", "No Ranch", "No Pickles", "Ranch On Side", "Chicken N Cheese ONLY"],
-        "extraSauces": true
-        
+        "modifications": null,
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN AND BEIGNETS",
@@ -28,9 +32,11 @@
         "cost": 17,
         "additionalInfo": null,
         "chickenStyle": true,
+        "dressingChoice": false,
         "sides": ["coleslaw", "no coleslaw"],
         "modifications": ["No Pickle", "No Powdered Sugar", "No Bourbon Glaze", "Bourbon Glaze On Side"],
-        "extraSauces": true
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "NASHVILLE HOT CHICKEN FRIED CHICKEN",
@@ -38,16 +44,24 @@
         "cost": 17,
         "additionalInfo": null,
         "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": ["coleslaw", "no coleslaw"],
         "modifications": ["gravy on side", "no gravy"],
-        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"]
+        "extraSauces": true,
+        "tempOption": false
       },
       {
+        
         "menuItem": "HOT CHICKEN STREET TACOS",
         "description": "two tacos with hot chicken (choose heat level), jicama slaw, charred street corn, queso fresco, and creme fraiche on double white corn tortillas melded with jack cheese, served with mexican white beans",
         "cost": 17,
         "additionalInfo": "additional tacos $7/each",
         "chickenStyle": true,
-        "modifications": ["No Beans", "No Cheese Crumble", "Add Queso Cheese (1.00)", "No Corn", "No Jicama Slaw", "No Creme Fraiche", "Side Avocado (1.50)", "Side Jalapenos (0.50)", "Side Pico (1.00)"]
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["No Beans", "No Cheese Crumble", "Add Queso Cheese (1.00)", "No Corn", "No Jicama Slaw", "No Creme Fraiche", "Side Avocado (1.50)", "Side Jalapenos (0.50)", "Side Pico (1.00)"],
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN QUESADILLA",
@@ -55,7 +69,11 @@
         "cost": 18,
         "additionalInfo": null,
         "chickenStyle": true,
-        "modifications": ["No Cheese", "No Guacamole", "No Sour Cream", "No Lettuce", "No Pico", "Pico On Side", "Add SD 4oz Guac (3.00)"]
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["No Cheese", "No Guacamole", "No Sour Cream", "No Lettuce", "No Pico", "Pico On Side", "Add SD 4oz Guac (3.00)"],
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN PO' BOY",
@@ -63,9 +81,11 @@
         "cost": 17,
         "additionalInfo": null,
         "chickenStyle": true,
+        "dressingChoice": false,
         "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
         "modifications": ["no lettuce", "no tomato", "no pickle", "add cheddar (1.00)"],
-        "extraSauces": true
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN CUBAN SANDWICH",
@@ -73,9 +93,11 @@
         "cost": 17,
         "additionalInfo": null,
         "chickenStyle": true,
+        "dressingChoice": false,
         "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
-        "modifications": ["grilled", "no pickles", "no cheese", "no mustard", "no chimichurri", "chimichurri on side"],
-        "extraSauces": true
+        "modifications": null,
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN TENDERS",
@@ -83,10 +105,11 @@
         "cost": 16,
         "additionalInfo": null,
         "chickenStyle": true,
-        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
         "dressingChoice": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
         "modifications": ["grilled", "no pickle"],
-        "extraSauces": true
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN TENDERS",
@@ -94,16 +117,11 @@
         "cost": 18,
         "additionalInfo": null,
         "chickenStyle": true,
-        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
         "dressingChoice": true,
+        "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
         "modifications": ["grilled", "no pickle"],
-        "extraSauces": true
-      },
-      {
-        "menuItem": "ADDITIONAL DIPPING SAUCES",
-        "description": "ranch, chipotle ranch, blue cheese, white bbq sauce, jalapeño honey mustard, TN whiskey bbq, buffalo",
-        "cost": 0.5,
-        "additionalInfo": null
+        "extraSauces": true,
+        "tempOption": false
       }
     ]
   },
@@ -111,69 +129,124 @@
     "category": "FOR THE TABLE",
     "menuItems": [
       {
-        "menuItem": "FRIED ONION RING LOAF",
-        "description": "thin-sliced vidalia onions, breaded and fried served with chipotle ranch",
-        "cost": 12,
-        "additionalInfo": null
-      },
+      "menuItem": "FRIED ONION RING LOAF",
+      "description": "thin-sliced vidalia onions, breaded and fried served with chipotle ranch",
+      "cost": 12,
+      "additionalInfo": null,
+      "chickenStyle": false,
+      "dressingChoice": false,
+      "sides": null,
+      "modifications": null,
+      "extraSauces": false,
+      "tempOption": false
+    },
       {
         "menuItem": "FOWL BALLS",
         "description": "new orleans-style dirty rice balls fried and served with white bbq sauce",
         "cost": 9,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FRIED CHEESE GRIT CAKES",
         "description": "creamy grit cakes served with our house-made strawberry-jalapeño jam",
         "cost": 10,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN NACHOS",
         "description": "perfect for sharing! bacon-fried tortilla chips topped with white beans, cheese, avocado, green onions, lettuce, pico de gallo, fresh jalapeños, sour cream and of course… hot chicken (choose heat level)",
         "cost": 19,
         "additionalInfo": null,
-        "syleChoice": true,
+        "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["no white beans", "no cheese", "no avocado", "no jalapeno", "no green onions", "no lettuce", "no pico", "no sour cream", "sour cream on side", "jalapenos on side", "no chips", "add chicken breast (7.00)", "avocado on side", "pico on side", "add queso cheese (1.00)"],
         "extraSauces": true,
-        "modifications": ["no white beans", "no cheese", "no avocado", "no jalapeno", "no green onions", "no lettuce", "no pico", "no sour cream", "sour cream on side", "jalapenos on side", "no chips", "add chicken breast (7.00)", "avocado on side", "pico on side", "add queso cheese (1.00)"]
+        "tempOption": false
       },
       {
         "menuItem": "PIGGY CHIPS",
         "description": "crispy bacon-fried potato chips served with white bbq sauce",
         "cost": 9,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN CHORIZO QUESO",
         "description": "melted mexican cheeses seasoned with peppers, topped with hot chicken chorizo and served with bacon-fried tortilla chips",
         "cost": 11,
         "additionalInfo": null,
-        "modifications": ["no chorizo", "chorizo on side", "no green onion", "green onion on side"]
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["no chorizo", "chorizo on side", "no green onion", "green onion on side"],
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "PIMENTO CHEESE + CHEERWINE BACON JAM",
         "description": "homemade pimento cheese served with cheer wine bacon jam, dill pickles and saltine crackers",
         "cost": 12,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "CHICK PEA HUMMUS",
         "description": "chick pea hummus served with pita points and vegetable slices",
         "cost": 9,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "SMOKED CHICKEN DIP",
         "description": "chilled smoked chicken dip served with crackers and dill pickles",
         "cost": 9,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "CHICKEN LIVER BAM BAM",
         "description": "fried chicken livers tossed in bam bam sauce",
         "cost": 11,
         "additionalInfo": null,
-        "sauceOnSide": false
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["sauce on side"],
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN POUTINE",
@@ -181,7 +254,11 @@
         "cost": 16,
         "additionalInfo": null,
         "chickenStyle": true,
-        "modifications": ["no gravy", "no green onion", "no cheese curds", "add chicken breast (7.00)", "gravy on side"]
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["no gravy", "no green onion", "no cheese curds", "add chicken breast (7.00)", "gravy on side"],
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "LACQUERED CHICKEN SKEWER",
@@ -189,28 +266,37 @@
         "cost": 12,
         "additionalInfo": null,
         "chickenStyle": true,
-        "dressingChoice": true
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "SMOKED WINGS",
         "description": "slow smoked and flash fried to order, tossed in memphis dry rub, jamaican jerk, jack daniels bbq, buffalo, mild, medium, nashville hot, or poultrygeist. served with veggie spears and choice of dipping sauce. Order of 6.",
         "cost": 13,
         "additionalInfo": null,
-        "dressingChoice": true,
         "chickenStyle": true,
-        "extraSauces": true
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "SMOKED WINGS",
         "description": "slow smoked and flash fried to order, tossed in memphis dry rub, jamaican jerk, jack daniels bbq, buffalo, mild, medium, nashville hot, or poultrygeist. served with veggie spears and choice of dipping sauce. Order of 10.",
         "cost": 17,
         "additionalInfo": null,
-        "dressingChoice": true,
         "chickenStyle": true,
-        "extraSauces": true
-      }
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": true,
+        "tempOption": false
+      },
     ]
-
   },
   {
     "category": "GUMBOS & SALADS",
@@ -220,62 +306,63 @@
         "description": "best salad in nashville! chopped romaine with tomato, cucumber, bacon, blue cheese, smoked hard-boiled eggs, avocado, hot chicken (choose heat level) and choice of dressing",
         "cost": 19,
         "additionalInfo": null,
-        "chickenSyle": true,
+        "chickenStyle": true,
+        "dressingChoice": true,
+        "sides": null,
         "modifications": ["no avocado", "no bacon", "no blue cheese crumbles", "no cucumber", "no smoked egg", "no tomato", "sub spinach", "sub kale (2.00)", "no pickles"],
         "extraSauces": true,
-        "dressingChoice": true
+        "tempOption": false
       },
       {
         "menuItem": "CHICKEN GUMBO",
         "description": "cup of smoked chicken gumbo served with dirty rice and a slice of french baguette",
         "cost": 9,
         "additionalInfo": null,
-        "riceChoice": ["rice", "no rice"]
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["rice", "no rice"],
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "SIDE SALAD",
-        "description": "romaine lettuce, tomato, cucumber served with choice of dressing\n+(substitute a side salad for traditional side with entree +$2.50)",
+        "description": "romaine lettuce, tomato, cucumber served with choice of dressing\n+(substitute a side salad for traditional side with entree +$2.50)\n$5",
         "cost": 5,
         "additionalInfo": null,
+        "chickenStyle": false,
         "dressingChoice": true,
-        "addChicken": ["grilled chicken plain", "grilled chicken mild", "grilled chicken medium", "grilled chicken hot", "grilled chicken poultrygeist", "grilled chicken buffalo"]
+        "sides": null,
+        "modifications": ["grilled chicken plain", "grilled chicken mild", "grilled chicken medium", "grilled chicken hot", "grilled chicken poultrygeist", "grilled chicken buffalo"],
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "HOUSE WEDGE",
         "description": "iceberg wedge with diced tomatoes, cucumber, bacon, blue cheese crumbles, cornbread croutons, and choice of dressing",
         "cost": 11,
         "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": true,
+        "sides": null,
         "modifications": ["no diced tomatos", "no cucumber", "no bacon", "no blue cheese crumbles", "no corn bread croutons"],
         "extraSauces": true,
-        "dresingChoice": true,
-        "addChicken": ["tossed southern fried",
-          "tossed mild",
-          "tossed medium",
-          "tossed nashville hot",
-          "tossed poultrygeist",
-          "tossed grilled",
-          "tossed buffalo",
-          "tossed jack daniel's BBQ",
-          "tossed Jerk",
-          "tossed memphis dry rub",
-          "SF onside mild",
-          "SF onside medium",
-          "SF onside hot",
-          "SF onside poult",
-          "SF onside buff",
-          "SF onside JD BBQ",
-          "SF onside jerk",
-        "SF onside memphis dry rub"]
+        "tempOption": false
       },
       {
         "menuItem": "CHOPPED KALE SALAD",
         "description": "kale, tomato, cucumber, carrot, dried sweet corn and red onion tossed in roasted garlic-citrus vinaigrette",
         "cost": 14,
         "additionalInfo": null,
-        "modifications": ["dressing on side", "no cucumber", "no corn", "sub spinach", "no tomoato", "no carrot", "no red onion"]
-          }
-        ]
-      },
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["dressing on side", "no cucumber", "no corn", "sub spinach", "no tomoato", "no carrot", "no red onion"],
+        "extraSauces": false,
+        "tempOption": false
+      }
+    ]
+  },
   {
     "category": "NOT HOT CHICKEN",
     "menuItems": [
@@ -284,30 +371,48 @@
         "description": "boneless, skin-on chicken breast stuffed with sage and goat cheese, seared under brick, and served with sautéd bell peppers, onions, spinach, and roasted potatoes garnished with cilantro-lime vinaigrette",
         "cost": 19,
         "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": ["small fries (3.00)", "small mac and cheese (3.00)", "small mashed potatoes (w gravy) (3.00)", "small mashed potatoes (no gravy) (3.00)", "small greens (3.00)", "small slaw (3.00)", "large fries (6.00)", "large mac and cheese (6.00)", "large mashed potatoes (w gravy) (6.00)", "large mashed potatoes (no gravy) (6.00)", "large greens (6.00)", "large slaw (6.00)"],
         "modifications": ["no potato", "no cilantro lime", "cilantro lime on side", "no spinach"],
-        "sides": ["small fries (3.00)", "small mac and cheese (3.00)", "small mashed potatoes (w gravy) (3.00)", "small mashed potatoes (no gravy) (3.00)", "small greens (3.00)", "small slaw (3.00)", "large fries (6.00)", "large mac and cheese (6.00)", "large mashed potatoes (w gravy) (6.00)", "large mashed potatoes (no gravy) (6.00)", "large greens (6.00)", "large slaw (6.00)"]
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BEER BUTT CHICKEN",
-        "description": "half or whole smoked \"beer butt\" chicken served with dill pickles, white bbq sauce and coleslaw. Half.",
+        "description": "half smoked \"beer butt\" chicken served with dill pickles, white bbq sauce and coleslaw.",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BEER BUTT CHICKEN",
-        "description": "half or whole smoked \"beer butt\" chicken served with dill pickles, white bbq sauce and coleslaw. Whole",
+        "description": "whole smoked \"beer butt\" chicken served with dill pickles, white bbq sauce and coleslaw. Whole",
         "cost": 23,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "NASHVILLE HOT ANDOUILLE PO' BOY",
         "description": "chicken andouille (choose heat level) on french baguette with tomato, lettuce, and pickles served with choice of side",
         "cost": 15,
         "additionalInfo": null,
-        "modification": ["no lettuce", "no tomato", "no pickle", "add cheddar (1.00)"],
-        "extraSauces": true,
+        "chickenStyle": true,
+        "dressingChoice": false,
         "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
-        "style": ["tossed mild", "tossed medium", "tossed hot", "tossed poultrygeist", "no sauce", "onside mild", "onside medium", "onside hot", "onside poultrygeist"]
+        "modifications": null,
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "NASHVILLE HOT CATFISH PO' BOY",
@@ -315,36 +420,47 @@
         "cost": 17,
         "additionalInfo": null,
         "chickenStyle": true,
+        "dressingChoice": false,
         "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
-        "modification": ["no lettuce", "no tomato", "no pickle", "add cheddar (1.00)"],
-        "extraSauces": true
+        "modifications": ["no lettuce", "no tomato", "no pickle", "add cheddar (1.00)"],
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "LOADED BURGER",
         "description": "half pound ground chuck served open faced with lettuce, onion, tomato, dill pickles and pawpaw sauce, topped with cheddar cheese and a sunny side up egg with choice of side",
         "cost": 16,
         "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
         "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
-        "modification": ["no bun", "no cheese", "no egg", "no lettuce", "no onion", "no paw paw", "no pickle", "no tomato", "egg over medium", "egg over hard", "only cheese", "meat and bun only", "no LTOP", "only cheese and egg"],
-        "tempOptions": ["rare", "medium rare", "medium", "medium well", "well done"],
-        "extraSauces": true
+        "modifications": ["no bun", "no cheese", "no egg", "no lettuce", "no onion", "no paw paw", "no pickle", "no tomato", "egg over medium", "egg over hard", "only cheese", "meat and bun only", "no LTOP", "only cheese and egg"],
+        "extraSauces": true,
+        "tempOption": true
       },
       {
         "menuItem": "PIMENTO CHEESE SMASHBURGER",
         "description": "half pound ground chuck topped with homemade pimento cheese, lettuce, tomato, dill pickles and onion served with choice of side",
         "cost": 17,
         "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
         "sides": ["small fries", "small collard greens", "small mac & cheese", "small mashed potatoes & gravy", "small mashed potatoes (no gravy)", "small slaw", "carrots & Celery", "small nacho bean", "no side"],
-        "modification": ["no bun", "no cheese", "no egg", "no lettuce", "no onion", "no paw paw", "no pickle", "no tomato", "egg over medium", "egg over hard", "only cheese", "meat and bun only", "no LTOP", "only cheese and egg"],
-        "tempOptions": ["rare", "medium rare", "medium", "medium well", "well done"],
-        "extraSauces": true
+        "modifications": ["no bun", "no cheese", "no egg", "no lettuce", "no onion", "no paw paw", "no pickle", "no tomato", "egg over medium", "egg over hard", "only cheese", "meat and bun only", "no LTOP", "only cheese and egg"],
+        "extraSauces": true,
+        "tempOption": true
       },
       {
         "menuItem": "RANCHER'S PIE",
         "description": "our play on shepherd's pie with smoked chicken, peas, carrots, and corn topped with mashed potatoes and melted cheddar and served over a hoe cake",
         "cost": 16,
         "additionalInfo": null,
-        "modifications": ["no cheese", "no hoe cake", "mashed potato on side", "no green onion", "extra hoe cake (1.00)", "no mashed potatoes"]
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": ["no cheese", "no hoe cake", "mashed potato on side", "no green onion", "extra hoe cake (1.00)", "no mashed potatoes"],
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
   },
@@ -355,73 +471,145 @@
         "menuItem": "skillet mac n' cheese",
         "description": "small",
         "cost": 3,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "skillet mac n' cheese",
         "description": "large",
         "cost": 6,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "french fries",
         "description": "small",
         "cost": 3,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "french fries",
         "description": "large",
         "cost": 6,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "mashed potatoes & gravy",
         "description": "small",
         "cost": 3,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "mashed potatoes & gravy",
         "description": "large",
         "cost": 6,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "piggy chips",
         "description": "small",
         "cost": 3,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "piggy chips",
         "description": "large",
         "cost": 6,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "collard greens",
         "description": "small",
         "cost": 3,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "collard greens",
         "description": "large",
         "cost": 6,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "coleslaw",
         "description": "small",
         "cost": 3,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "coleslaw",
         "description": "large",
         "cost": 6,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
   },
@@ -432,76 +620,147 @@
         "menuItem": "iced tea",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "sweet tea",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "pepsi",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "diet pepsi",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "dr pepper",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "orange crush",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "sierra mist",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "mountain dew",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "cheerwine",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "lemonade",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "milk",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "coffee",
         "description": null,
         "cost": 3.25,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
-    
   },
   {
     "category": "TASTY TREATS",
@@ -510,19 +769,37 @@
         "menuItem": "BANANA PUDDING",
         "description": "scratch-made banana pudding served in a waffle bowl, topped with sea salt caramel and whipped cream",
         "cost": 10,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "DEEP FRIED FUDGE PIES",
         "description": "homemade fudge pies fried, dusted with powdered sugar and served with vanilla ice cream and bourbon glaze",
         "cost": 10,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BOURBON GLAZED BEIGNETS",
         "description": "perfectly fried beignets topped with bourbon glaze and a heavy dusting of powdered sugar",
         "cost": 8,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
   },
@@ -533,121 +810,255 @@
         "menuItem": "CHERRY LIMEADE",
         "description": "smirnoff lime vodka, grenadine, sour. 12oz.",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "CHERRY LIMEADE",
         "description": "smirnoff lime vodka, grenadine, sour. 20oz.",
         "cost": 15,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "WATERMELON FROSE",
         "description": "rosé, watermelon puree, sour. 12oz.",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "WATERMELON FROSE",
         "description": "rosé, watermelon puree, sour. 20oz",
         "cost": 15,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FROZEN LEMONADE",
         "description": "our play on an all-time classic featuring old dominick vodka! 12oz",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FROZEN LEMONADE",
         "description": "our play on an all-time classic featuring old dominick vodka! 20oz",
         "cost": 15,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BLUE RASPBERRY",
         "description": "smirnoff raspberry vodka, lemonade, blue curacao. 12oz",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BLUE RASPBERRY",
         "description": "smirnoff raspberry vodka, lemonade, blue curacao. 20oz",
         "cost": 15,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "WILLIE POP",
         "description": "layered blue raspberry, frozen lemonade, and cherry limeade. your inner child will thank you. 12oz.",
         "cost": 12,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
+        "location": "Nashville",
+        "category": "BOOZY SLUSHIES",
         "menuItem": "WILLIE POP",
         "description": "layered blue raspberry, frozen lemonade, and cherry limeade. your inner child will thank you. 20oz",
         "cost": 20,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FROMOSA",
         "description": "that's right! a frozen mimosa! our play on a brunch classic! 11oz",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FROMOSA",
         "description": "that's right! a frozen mimosa! our play on a brunch classic! 20oz",
         "cost": 15,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FROZEN MARGARITA",
         "description": "party fowl's signature margarita recipe, frozen. 12oz",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FROZEN MARGARITA",
         "description": "party fowl's signature margarita recipe, frozen. 20oz",
         "cost": 15,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "LOAD IT! +",
         "description": "deep eddy lime / deep eddy sweet tea / deep eddy peach / deep eddy cranberry / pickers blueberry / pickers blood orange / pickers pineapple / smirnoff watermelon mint / bacardi coconut rum",
         "cost": 5,
-        "additionalInfo": "Add an extra kick!"
+        "additionalInfo": "Add an extra kick!",
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FLOAT IT! +",
         "description": "mango / peach / prickly pear / raspberry / strawberry / watermelon",
         "cost": 2,
-        "additionalInfo": "Add some extra flavor!"
+        "additionalInfo": "Add some extra flavor!",
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "LOADED RIUNITE FROMOSA",
         "description": "jumbo 20oz formosa with a riunite mini bottle of your choice (riunite lambrusco / peach moscato / sangria)",
         "cost": 16,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "LOADED RIUNITE MARGARITA",
         "description": "jumbo 20oz frozen margarita with a riunite mini bottle of your choice (riunite lambrusco / peach moscato / sangria)",
         "cost": 16,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BOURBON BUSHWACHER",
         "description": "adult chocolate milkshake and nashville favorite, the party fowl way… with bourbon! 12oz.",
         "cost": 11,
-        "additionalInfo": null
+        "additionalInfo": "LOAD IT +$5: blue chair bay banana rum cream, jameson irish whiskey, ole smoky salty caramel whiskey, whisper creek mocha, jackson morgan peppermint mocha, skrrewball peanut butter whiskey, rumchata",
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BOURBON BUSHWACHER",
         "description": "adult chocolate milkshake and nashville favorite, the party fowl way… with bourbon! 20oz.",
         "cost": 15,
-        "additionalInfo": null
+        "additionalInfo": "LOAD IT +$5: blue chair bay banana rum cream, jameson irish whiskey, ole smoky salty caramel whiskey, whisper creek mocha, jackson morgan peppermint mocha, skrrewball peanut butter whiskey, rumchata",
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
+      },
+      {
+        "menuItem": "SEASONAL BOOZY SLUSHY",
+        "description": "ask your server for details ",
+        "cost": null,
+        "additionalInfo": "Price Varies",
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
     
@@ -659,43 +1070,85 @@
         "menuItem": "CUCUMBER GIN + TONIC",
         "description": "gin, cucumber, tonic, chareau aloe liqueur",
         "cost": 9,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "CLASSIC MARGARITA",
         "description": "tequila, agave nectar, triple sec, lime juice",
         "cost": 9,
-        "additionalInfo": "FLOAT IT +$2: peach / strawberry / mango / raspberry / prickly pear / watermelon"
+        "additionalInfo": "FLOAT IT +$2: peach / strawberry / mango / raspberry / prickly pear / watermelon",
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "SEA SALT-VANILLA HONEY \"NEW-FASHIONED\"",
         "description": "old forester bourbon, angostura bitters, sea salt-vanilla honey, garnished with an orange peel",
         "cost": 12,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "MUSIC CITY MULE",
         "description": "choice of nashville's own pickers vodka (pickers original vodka / pickers blueberry / pickers pineapple / pickers blood orange), ginger beer, lime juice, in a copper mug",
         "cost": 9,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "MIMOSA",
         "description": "champagne with your choice of orange, pineapple, cranberry, or grapefruit juice",
         "cost": 8,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BLOODY MARY",
         "description": "choice of walker's bloody mary mix or party fowl nashville hot bloody mary mix and nashville's own pickers vodka!",
         "cost": 9,
-        "additionalInfo": "Add a Miller High Life Pony to any Bloody +$3"
+        "additionalInfo": "Add a Miller High Life Pony to any Bloody +$3",
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BLOODY MARIA",
         "description": "choice of walker's bloody mary mix or party fowl nashville hot bloody mary mix and dulce vida blanco tequila",
         "cost": 9,
-        "additionalInfo": "UPGRADE: dulce vida reposado +$2 / dulce vida añejo +$3"
+        "additionalInfo": "UPGRADE: dulce vida reposado +$2 / dulce vida añejo +$3",
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
     
@@ -704,133 +1157,163 @@
     "category": "BOTTLES & CANS",
     "menuItems": [
       {
+        "category": "BOTTLES & CANS",
         "menuItem": "corona",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "corona light",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "dos equis lager",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "stella artois",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "bud light",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "budweiser",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "coors light",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "michelob ultra",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "miller lite",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "miller high life pony (7oz)",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "pbr 16oz",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "truly sparkling hard seltzer",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "truly seasonal (ask your bartender)",
         "description": null,
         "cost": null,
-        "additionalInfo": null
-      },
-      {
-        "menuItem": "heineken 0.0",
-        "description": null,
-        "cost": null,
-        "additionalInfo": null
-      },
-      {
-        "menuItem": "red bull",
-        "description": "original, sugar-free, blue edition, yellow edition, red edition, white edition",
-        "cost": null,
-        "additionalInfo": null
-      },
-      {
-        "menuItem": "bota box cabernet sauvignon",
-        "description": null,
-        "cost": null,
-        "additionalInfo": null
-      },
-      {
-        "menuItem": "bota box pinot noir",
-        "description": null,
-        "cost": null,
-        "additionalInfo": null
-      },
-      {
-        "menuItem": "bota box rosé",
-        "description": null,
-        "cost": null,
-        "additionalInfo": null
-      },
-      {
-        "menuItem": "bota box pinot grigio",
-        "description": null,
-        "cost": null,
-        "additionalInfo": null
-      },
-      {
-        "menuItem": "bota box chardonnay",
-        "description": null,
-        "cost": null,
-        "additionalInfo": null
-      },
-      {
-        "menuItem": "CHECK THE STORE FOR SEASONAL DRINKS, LOCAL DRAFTS, LIQUOR, AND HAPPY HOUR SPECIALS!",
-        "description": null,
-        "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
-    
   },
   {
     "category": "NON-ALCOHOLIC",
@@ -839,14 +1322,26 @@
         "menuItem": "heineken 0.0",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "red bull",
         "description": "original, sugar-free, blue edition, yellow edition, red edition, white edition",
         "cost": null,
-        "additionalInfo": null
-      }
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
+      },
     ]
   },
   {
@@ -856,31 +1351,73 @@
         "menuItem": "bota box cabernet sauvignon",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "bota box pinot noir",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "bota box rosé",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "bota box pinot grigio",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "bota box chardonnay",
         "description": null,
         "cost": null,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
+      },
+      {
+        "menuItem": "CHECK THE STORE FOR SEASONAL DRINKS, LOCAL DRAFTS, LIQUOR, AND HAPPY HOUR SPECIALS!",
+        "description": null,
+        "cost": null,
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
   },
@@ -891,19 +1428,37 @@
         "menuItem": "BOURBON GLAZED BEIGNETS",
         "description": "perfect, golden brown, french donuts with bourbon glazed and a heavy dusting of powdered sugar",
         "cost": 8,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "FRIED CHEESE GRIT CAKES",
         "description": "fried cheese grit cakes served with our house-made strawberry-jalapeño jam",
         "cost": 10,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "APPLE BUTTER & BISCUITS",
         "description": "fresh, fluffy biscuits served hot with our house-made cinnamon whiskey apple butter and butter",
         "cost": 8,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
   },
@@ -914,55 +1469,109 @@
         "menuItem": "NASHVILLE HOT CHICKEN BENEDICT",
         "description": "hot chicken breast (choose heat level) served over an english muffin and topped with two poached eggs and fresh chipotle-adobo hollandaise, served with lyonnaise potatoes",
         "cost": 18,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "LOADED HOT CHICKEN BISCUIT",
         "description": "scratch-made, open-faced buttermilk biscuit topped with hot chicken (choose heat level), sawmill gravy, two eggs prepared your way, and lyonnaise potatoes",
         "cost": 18,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BIRD IN A BLANKET",
         "description": "three ultra-thin pancakes filled with smoked chicken in a rich cream sauce. served with lyonnaise potatoes",
         "cost": 16,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "NASHVILLE HOT LOCO MOCO",
         "description": "hot chicken (choose heat level) served over dirty rice, smothered in gravy, and topped with two eggs prepared your way",
         "cost": 18,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "SMOKED CHICKEN HASH",
         "description": "diced sweet potato, diced vidalia onion, and pulled smoked chicken sautéed in garlic and green onion butter, topped with smoked gouda, and finished off with two sunny side-up eggs and a side of toast",
         "cost": 17,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BRUNCH BURRITO",
         "description": "hot chicken (choose heat level), scrambled eggs, bacon, cheddar cheese, lyonnaise potatoes, peppers and onions, wrapped in a flour tortilla, served on tomato and a bed of mexican cowboy beans, topped with queso cheese and pico de gallo",
         "cost": 18,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN-PIMENTO CHEESE OMELET",
         "description": "four egg omelet cooked in our garlic-bacon butter filled with hot chicken (choose heat level) and house-made pimento cheese served with lyonnaise potatoes",
         "cost": 16,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "HOT CHICKEN & STUFFED FRENCH TOAST",
         "description": "thick-cut, house-made cinnamon brioche stuffed with apples and bourbon cream cheese, dipped in cinnamon custard, skillet-fried, served with hot chicken (choose heat level) and bourbon syrup",
         "cost": 18,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": true,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "BRUNCH FOR TWO - A PARTY FOWL SIGNATURE!",
         "description": "55oz bloody mary topped with two whole fried cornish game hens, two whole scotch eggs, eight fried okra, and whole avocado",
         "cost": 55,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
   },
@@ -975,23 +1584,35 @@
         "cost": 9,
         "additionalInfo": null,
         "chickenStyle": true,
+        "dressingChoice": true,
         "sides": ["piggy chips", "fries", "no fries", "no chips"],
-        "extraSauces": true
+        "modifications": null,
+        "extraSauces": true,
+        "tempOption": false
       },
       {
         "menuItem": "GRILLED CHEESE",
         "description": "buttered texas toast grilled with a slice of cheddar cheese and your choice of piggy chips or fries",
         "cost": 7,
         "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
         "sides": ["piggy chips", "fries", "no fries", "no chips"],
-        "extraSauces": true
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
         "menuItem": "SKILLET MAC 'N' CHEESE",
         "description": "creamy mac 'n' cheese topped with melted cheddar",
         "cost": 6,
         "additionalInfo": null,
-        "extraSauces": true
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
   },
@@ -1002,13 +1623,27 @@
         "menuItem": "MINI BRUNCH",
         "description": "one egg, one bacon strip, one biscuit",
         "cost": 8,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       },
       {
+        "location": "Nashville",
+        "category": "KIDS BRUNCH - FRIDAY-SUNDAY TIL 2PM",
         "menuItem": "MINI HOTCAKES",
         "description": "two pancakes, one bacon strip",
         "cost": 8,
-        "additionalInfo": null
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
       }
     ]
   }

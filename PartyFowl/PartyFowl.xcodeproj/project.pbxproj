@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323D76A12A265DE300C41AA6 /* OrderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D76A02A265DE300C41AA6 /* OrderItemView.swift */; };
+		323D76A32A2663F900C41AA6 /* OrderItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D76A22A2663F900C41AA6 /* OrderItemViewController.swift */; };
 		324446212A02DD0F006B35D4 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324446202A02DD0F006B35D4 /* StatusBar.swift */; };
 		326D4C7E2A1EB7AD00BBA7FA /* PFChickenStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C7D2A1EB7AD00BBA7FA /* PFChickenStyle.swift */; };
 		326D4C812A1EBC5D00BBA7FA /* PoutineMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C802A1EBC5D00BBA7FA /* PoutineMod.swift */; };
@@ -71,6 +73,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		323D76A02A265DE300C41AA6 /* OrderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemView.swift; sourceTree = "<group>"; };
+		323D76A22A2663F900C41AA6 /* OrderItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemViewController.swift; sourceTree = "<group>"; };
 		324446202A02DD0F006B35D4 /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
 		326D4C7C2A1EB61F00BBA7FA /* ExtraSauces.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExtraSauces.json; sourceTree = "<group>"; };
 		326D4C7D2A1EB7AD00BBA7FA /* PFChickenStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFChickenStyle.swift; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 			children = (
 				32A889322A16555200FABC61 /* OrderView.swift */,
 				32A889342A1655D900FABC61 /* OrderCell.swift */,
+				323D76A02A265DE300C41AA6 /* OrderItemView.swift */,
 			);
 			path = LocationOrdering;
 			sourceTree = "<group>";
@@ -380,6 +385,7 @@
 				329632A62A093D00004E8E40 /* MenuViewController.swift */,
 				32A889042A0AF3BC00FABC61 /* Tester.swift */,
 				32A8892F2A1654CC00FABC61 /* OrderViewController.swift */,
+				323D76A22A2663F900C41AA6 /* OrderItemViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -591,8 +597,10 @@
 				326D4C852A1EBCAE00BBA7FA /* SmokedWingsMod.swift in Sources */,
 				32D6D98B2A00774C0048299F /* LoyaltySignUpView.swift in Sources */,
 				32CB54B32A01708400A61BCA /* PFMenuOption.swift in Sources */,
+				323D76A32A2663F900C41AA6 /* OrderItemViewController.swift in Sources */,
 				32D6D97F2A0074040048299F /* LoyaltyRewardsTermsView.swift in Sources */,
 				3296329D2A0558E7004E8E40 /* HoursView+Brunch.swift in Sources */,
+				323D76A12A265DE300C41AA6 /* OrderItemView.swift in Sources */,
 				32A889052A0AF3BC00FABC61 /* Tester.swift in Sources */,
 				329632982A03E974004E8E40 /* PFNavController.swift in Sources */,
 				32D6D97D2A0073D70048299F /* TermsOfUseView.swift in Sources */,

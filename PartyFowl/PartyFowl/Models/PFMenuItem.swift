@@ -12,6 +12,12 @@ struct PFMenuItem: Codable, Comparable {
   var description: String?
   var cost: Double?
   var additionalInfo: String?
+  var chickenStyle: Bool
+  var dressingChoice: Bool
+  var sides: [String]?
+  var modifications: [String]?
+  var extraSauces: Bool
+  var tempOption: Bool
 
   static func < (lhs: Self, rhs: Self) -> Bool {
     return lhs.menuItem < rhs.menuItem

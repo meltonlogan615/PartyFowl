@@ -33,6 +33,7 @@ extension OrderViewController {
     orderView = OrderView()
     orderView.translatesAutoresizingMaskIntoConstraints = false
     orderView.tableView.dataSource = self
+    orderView.tableView.delegate = self
     activateCategoryButtons(in: orderView.menuOptions)
   }
 
@@ -58,7 +59,7 @@ extension OrderViewController: UITableViewDataSource {
                                                              for: indexPath) as? OrderCell else {
       return UITableViewCell()
     }
-    
+
     cell.itemLabel.text = item.menuItem
     if let cost = item.cost {
       if cost.truncatingRemainder(dividingBy: 1) == 0 {
@@ -69,6 +70,18 @@ extension OrderViewController: UITableViewDataSource {
     }
     cell.descriptionLabel.text = item.description
     return cell
+  }
+}
+
+extension OrderViewController: UITableViewDelegate {
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let item = menuResults[selectedIndex].menuItems[indexPath.item]
+    let destination = OrderItemViewController()
+    destination.item = item
+    let navVC = PFNavController(rootViewController: destination)
+    navVC.modalPresentationStyle = .fullScreen
+    navVC.modalTransitionStyle = .flipHorizontal
+    present(navVC, animated: true)
   }
 }
 
