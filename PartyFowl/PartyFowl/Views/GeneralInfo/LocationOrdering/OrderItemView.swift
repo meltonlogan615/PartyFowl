@@ -11,7 +11,7 @@ class OrderItemView: UIView {
   var scroll: UIScrollView!
   var content: UIView!
   var stack: UIStackView!
-
+  var test: String = "test"
   var itemNameLabel: UILabel!
   var itemDescriptionLabel: UILabel!
   var additionalInfoLabel: UILabel!
