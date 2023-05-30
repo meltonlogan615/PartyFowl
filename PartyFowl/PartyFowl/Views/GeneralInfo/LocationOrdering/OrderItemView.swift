@@ -2,17 +2,12 @@
 //  OrderItemView.swift
 //  PartyFowl
 //
-<<<<<<< HEAD
 //  Created by Logan Melton on 5/30/23.
-=======
-//  Created by Logan Melton on 5/28/23.
->>>>>>> 1a87b4cd2d8457129edabedbbdab17747aff1648
 //
 
 import UIKit
 
 class OrderItemView: UIView {
-<<<<<<< HEAD
   var scroll: UIScrollView!
   var content: UIView!
   var stack: UIStackView!
@@ -25,11 +20,9 @@ class OrderItemView: UIView {
   var modificationLabel: UILabel!
   var extraSauceLabel: UILabel!
   var tempOptionLabel: UILabel!
-=======
 
   var itemLabel: UILabel!
   var descriptionLabel: UILabel!
->>>>>>> 1a87b4cd2d8457129edabedbbdab17747aff1648
 
   override init(frame: CGRect) {
     super.init(frame: frame)
@@ -38,17 +31,12 @@ class OrderItemView: UIView {
   }
 
   required init?(coder: NSCoder) {
-<<<<<<< HEAD
     fatalError("No Coder Coding")
-=======
-    fatalError("Ain't no coder coding")
->>>>>>> 1a87b4cd2d8457129edabedbbdab17747aff1648
   }
 }
 
 extension OrderItemView {
   private func styleItemView() {
-<<<<<<< HEAD
     scroll = UIScrollView()
     scroll.translatesAutoresizingMaskIntoConstraints = false
     content = UIView()
@@ -151,7 +139,6 @@ extension OrderItemView {
     }
   }
 }
-=======
     itemLabel = UILabel()
     itemLabel.translatesAutoresizingMaskIntoConstraints = false
     itemLabel.font = .preferredFont(forTextStyle: .largeTitle)
@@ -180,4 +167,3 @@ extension OrderItemView {
     ])
   }
 }
->>>>>>> 1a87b4cd2d8457129edabedbbdab17747aff1648

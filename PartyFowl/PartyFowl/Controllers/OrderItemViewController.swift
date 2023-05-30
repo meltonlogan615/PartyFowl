@@ -2,11 +2,7 @@
 //  OrderItemViewController.swift
 //  PartyFowl
 //
-<<<<<<< HEAD
 //  Created by Logan Melton on 5/30/23.
-=======
-//  Created by Logan Melton on 5/28/23.
->>>>>>> 1a87b4cd2d8457129edabedbbdab17747aff1648
 //
 
 import UIKit

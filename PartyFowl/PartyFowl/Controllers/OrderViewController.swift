@@ -75,7 +75,6 @@ extension OrderViewController: UITableViewDataSource {
 
 extension OrderViewController: UITableViewDelegate {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-<<<<<<< HEAD
     let item = menuResults[selectedIndex].menuItems[indexPath.item]
     let destination = OrderItemViewController()
     destination.item = item
@@ -83,12 +82,6 @@ extension OrderViewController: UITableViewDelegate {
     navVC.modalPresentationStyle = .fullScreen
     navVC.modalTransitionStyle = .flipHorizontal
     present(navVC, animated: true)
-=======
-    let orderItem = OrderItemViewController()
-    let item = menuResults[selectedIndex].menuItems[indexPath.item]
-    orderItem.item = item
-    presentVC(named: orderItem)
->>>>>>> 1a87b4cd2d8457129edabedbbdab17747aff1648
   }
 }
 
