@@ -9,7 +9,6 @@ import UIKit
 
 class OrderCell: UITableViewCell {
   static let reuseID = "orderCell"
-  var itemImage: UIImageView!
   var itemLabel: UILabel!
   var descriptionLabel: UILabel!
   var priceLabel: UILabel!
@@ -28,11 +27,6 @@ class OrderCell: UITableViewCell {
 
 extension OrderCell {
   private func styleCell() {
-    itemImage = UIImageView()
-    itemImage.translatesAutoresizingMaskIntoConstraints = false
-    itemImage.image = UIImage(named: "bird")
-    itemImage.contentMode = .scaleAspectFit
-
     itemLabel = UILabel()
     itemLabel.translatesAutoresizingMaskIntoConstraints = false
     itemLabel.font = .preferredFont(forTextStyle: .headline)
@@ -53,14 +47,6 @@ extension OrderCell {
   }
 
   private func layoutCell() {
-    contentView.addSubview(itemImage)
-    NSLayoutConstraint.activate([
-      itemImage.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-      itemImage.leadingAnchor.constraint(equalToSystemSpacingAfter: contentView.leadingAnchor, multiplier: 1),
-      itemImage.widthAnchor.constraint(equalToConstant: 56),
-      itemImage.heightAnchor.constraint(lessThanOrEqualToConstant: 56)
-    ])
-
     let topStack: UIStackView = {
       let stack = UIStackView(arrangedSubviews: [itemLabel, priceLabel])
       stack.translatesAutoresizingMaskIntoConstraints = false
@@ -70,7 +56,7 @@ extension OrderCell {
       return stack
     }()
 
-    let middleStack: UIStackView = {
+    let leftStack: UIStackView = {
       let stack = UIStackView(arrangedSubviews: [topStack, descriptionLabel])
       stack.translatesAutoresizingMaskIntoConstraints = false
       stack.axis = .vertical
@@ -79,11 +65,11 @@ extension OrderCell {
       return stack
     }()
 
-    contentView.addSubview(middleStack)
+    contentView.addSubview(leftStack)
     NSLayoutConstraint.activate([
-      middleStack.topAnchor.constraint(equalToSystemSpacingBelow: contentView.topAnchor, multiplier: 2),
-      middleStack.leadingAnchor.constraint(equalToSystemSpacingAfter: itemImage.trailingAnchor, multiplier: 1),
-      contentView.bottomAnchor.constraint(equalToSystemSpacingBelow: middleStack.bottomAnchor, multiplier: 2)
+      leftStack.topAnchor.constraint(equalToSystemSpacingBelow: contentView.topAnchor, multiplier: 2),
+      leftStack.leadingAnchor.constraint(equalToSystemSpacingAfter: contentView.leadingAnchor, multiplier: 2),
+      contentView.bottomAnchor.constraint(equalToSystemSpacingBelow: leftStack.bottomAnchor, multiplier: 2)
     ])
 
     contentView.addSubview(addButton)
@@ -91,7 +77,7 @@ extension OrderCell {
       addButton.widthAnchor.constraint(equalToConstant: 24),
       addButton.heightAnchor.constraint(equalToConstant: 24),
       addButton.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-      addButton.leadingAnchor.constraint(equalToSystemSpacingAfter: middleStack.trailingAnchor, multiplier: 1),
+      addButton.leadingAnchor.constraint(equalToSystemSpacingAfter: leftStack.trailingAnchor, multiplier: 1),
       contentView.trailingAnchor.constraint(equalToSystemSpacingAfter: addButton.trailingAnchor, multiplier: 1)
     ])
   }

@@ -13,9 +13,6 @@ class OrderItemViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
-    styleView()
-    layoutView()
     itemView.fillStack(with: item)
     navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back",
                                                        image: UIImage(systemName: "chevron.left"),
@@ -28,20 +25,6 @@ class OrderItemViewController: UIViewController {
 }
 
 extension OrderItemViewController {
-
-  private func styleView() {
-    itemView = OrderItemView()
-    itemView.translatesAutoresizingMaskIntoConstraints = false
-  }
-
-  private func layoutView() {
-    view.addSubview(itemView)
-    NSLayoutConstraint.activate([
-      itemView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-      itemView.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 2),
-      view.trailingAnchor.constraint(equalToSystemSpacingAfter: itemView.trailingAnchor, multiplier: 2),
-      itemView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
-
   private func styleOrderView() {
     itemView = OrderItemView()
     itemView.translatesAutoresizingMaskIntoConstraints = false

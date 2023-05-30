@@ -129,17 +129,17 @@
     "category": "FOR THE TABLE",
     "menuItems": [
       {
-      "menuItem": "FRIED ONION RING LOAF",
-      "description": "thin-sliced vidalia onions, breaded and fried served with chipotle ranch",
-      "cost": 12,
-      "additionalInfo": null,
-      "chickenStyle": false,
-      "dressingChoice": false,
-      "sides": null,
-      "modifications": null,
-      "extraSauces": false,
-      "tempOption": false
-    },
+        "menuItem": "FRIED ONION RING LOAF",
+        "description": "thin-sliced vidalia onions, breaded and fried served with chipotle ranch",
+        "cost": 12,
+        "additionalInfo": null,
+        "chickenStyle": false,
+        "dressingChoice": false,
+        "sides": null,
+        "modifications": null,
+        "extraSauces": false,
+        "tempOption": false
+      },
       {
         "menuItem": "FOWL BALLS",
         "description": "new orleans-style dirty rice balls fried and served with white bbq sauce",

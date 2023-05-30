@@ -11,7 +11,7 @@ class OrderItemView: UIView {
   var scroll: UIScrollView!
   var content: UIView!
   var stack: UIStackView!
-  var test: String = "test"
+
   var itemNameLabel: UILabel!
   var itemDescriptionLabel: UILabel!
   var additionalInfoLabel: UILabel!
@@ -115,7 +115,7 @@ extension OrderItemView {
         costLabel.text = String(format: "%.2f", cost)
       }
     }
-    
+
     if item.chickenStyle {
       for option in PFChickenStyle.allCases {
         let row: UIStackView = {
@@ -137,33 +137,5 @@ extension OrderItemView {
         stack.addArrangedSubview(row)
       }
     }
-  }
-}
-    itemLabel = UILabel()
-    itemLabel.translatesAutoresizingMaskIntoConstraints = false
-    itemLabel.font = .preferredFont(forTextStyle: .largeTitle)
-    itemLabel.numberOfLines = 2
-    itemLabel.textAlignment = .center
-
-    descriptionLabel = UILabel()
-    descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
-    descriptionLabel.font = .preferredFont(forTextStyle: .subheadline)
-    descriptionLabel.numberOfLines = 0
-  }
-
-  private func layoutItemView() {
-    addSubview(itemLabel)
-    NSLayoutConstraint.activate([
-      itemLabel.topAnchor.constraint(equalToSystemSpacingBelow: topAnchor, multiplier: 2),
-      itemLabel.leadingAnchor.constraint(equalToSystemSpacingAfter: leadingAnchor, multiplier: 2),
-      trailingAnchor.constraint(equalToSystemSpacingAfter: itemLabel.trailingAnchor, multiplier: 2)
-    ])
-
-    addSubview(descriptionLabel)
-    NSLayoutConstraint.activate([
-      descriptionLabel.topAnchor.constraint(equalToSystemSpacingBelow: itemLabel.bottomAnchor, multiplier: 2),
-      descriptionLabel.leadingAnchor.constraint(equalTo: itemLabel.leadingAnchor),
-      descriptionLabel.trailingAnchor.constraint(equalTo: itemLabel.trailingAnchor)
-    ])
   }
 }
