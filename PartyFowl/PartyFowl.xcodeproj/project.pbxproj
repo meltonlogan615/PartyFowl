@@ -18,7 +18,6 @@
 		326D4CCA2A23286A00BBA7FA /* TableView-PresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4CC92A23286A00BBA7FA /* TableView-PresentView.swift */; };
 		329632982A03E974004E8E40 /* PFNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632972A03E974004E8E40 /* PFNavController.swift */; };
 		3296329A2A055700004E8E40 /* HoursView+MainHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632992A055700004E8E40 /* HoursView+MainHours.swift */; };
-		3296329D2A0558E7004E8E40 /* HoursView+Brunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296329C2A0558E7004E8E40 /* HoursView+Brunch.swift */; };
 		3296329F2A0558F4004E8E40 /* HoursView+HappyHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296329E2A0558F4004E8E40 /* HoursView+HappyHour.swift */; };
 		329632A12A055904004E8E40 /* HoursView+KidsEatFree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632A02A055904004E8E40 /* HoursView+KidsEatFree.swift */; };
 		329632A32A05662D004E8E40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632A22A05662D004E8E40 /* Constants.swift */; };
@@ -45,6 +44,7 @@
 		32A889332A16555200FABC61 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A889322A16555200FABC61 /* OrderView.swift */; };
 		32A889352A1655D900FABC61 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A889342A1655D900FABC61 /* OrderCell.swift */; };
 		32A889382A165CB000FABC61 /* PFOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A889372A165CB000FABC61 /* PFOrder.swift */; };
+		32C218212A2796B2007B2480 /* HoursView+Brunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C218202A2796B2007B2480 /* HoursView+Brunch.swift */; };
 		32CB54AF2A01528700A61BCA /* AllLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB54AE2A01528700A61BCA /* AllLocationsViewController.swift */; };
 		32CB54B12A0157AD00A61BCA /* LocalNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB54B02A0157AD00A61BCA /* LocalNetworking.swift */; };
 		32CB54B32A01708400A61BCA /* PFMenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB54B22A01708400A61BCA /* PFMenuOption.swift */; };
@@ -63,7 +63,6 @@
 		32D6D9772A000C4D0048299F /* UsableStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D9762A000C4D0048299F /* UsableStack.swift */; };
 		32D6D9792A0070800048299F /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D9782A0070800048299F /* PrivacyPolicyView.swift */; };
 		32D6D97D2A0073D70048299F /* TermsOfUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D97C2A0073D70048299F /* TermsOfUseView.swift */; };
-		32D6D97F2A0074040048299F /* LoyaltyRewardsTermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D97E2A0074040048299F /* LoyaltyRewardsTermsView.swift */; };
 		32D6D9832A0074640048299F /* ReservaltionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D9822A0074640048299F /* ReservaltionView.swift */; };
 		32D6D9872A0076870048299F /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D9862A0076870048299F /* ContactView.swift */; };
 		32D6D98B2A00774C0048299F /* LoyaltySignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D98A2A00774C0048299F /* LoyaltySignUpView.swift */; };
@@ -86,7 +85,6 @@
 		326D4CC92A23286A00BBA7FA /* TableView-PresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView-PresentView.swift"; sourceTree = "<group>"; };
 		329632972A03E974004E8E40 /* PFNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFNavController.swift; sourceTree = "<group>"; };
 		329632992A055700004E8E40 /* HoursView+MainHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+MainHours.swift"; sourceTree = "<group>"; };
-		3296329C2A0558E7004E8E40 /* HoursView+Brunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+Brunch.swift"; sourceTree = "<group>"; };
 		3296329E2A0558F4004E8E40 /* HoursView+HappyHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+HappyHour.swift"; sourceTree = "<group>"; };
 		329632A02A055904004E8E40 /* HoursView+KidsEatFree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+KidsEatFree.swift"; sourceTree = "<group>"; };
 		329632A22A05662D004E8E40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -113,6 +111,7 @@
 		32A889322A16555200FABC61 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		32A889342A1655D900FABC61 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
 		32A889372A165CB000FABC61 /* PFOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFOrder.swift; sourceTree = "<group>"; };
+		32C218202A2796B2007B2480 /* HoursView+Brunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+Brunch.swift"; sourceTree = "<group>"; };
 		32CB54AE2A01528700A61BCA /* AllLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLocationsViewController.swift; sourceTree = "<group>"; };
 		32CB54B02A0157AD00A61BCA /* LocalNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetworking.swift; sourceTree = "<group>"; };
 		32CB54B22A01708400A61BCA /* PFMenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFMenuOption.swift; sourceTree = "<group>"; };
@@ -139,7 +138,6 @@
 		32D6D9762A000C4D0048299F /* UsableStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsableStack.swift; sourceTree = "<group>"; };
 		32D6D9782A0070800048299F /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		32D6D97C2A0073D70048299F /* TermsOfUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseView.swift; sourceTree = "<group>"; };
-		32D6D97E2A0074040048299F /* LoyaltyRewardsTermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyRewardsTermsView.swift; sourceTree = "<group>"; };
 		32D6D9822A0074640048299F /* ReservaltionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservaltionView.swift; sourceTree = "<group>"; };
 		32D6D9862A0076870048299F /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		32D6D98A2A00774C0048299F /* LoyaltySignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltySignUpView.swift; sourceTree = "<group>"; };
@@ -184,9 +182,9 @@
 			children = (
 				32CB54BA2A01A66400A61BCA /* HoursView.swift */,
 				329632992A055700004E8E40 /* HoursView+MainHours.swift */,
-				3296329C2A0558E7004E8E40 /* HoursView+Brunch.swift */,
 				3296329E2A0558F4004E8E40 /* HoursView+HappyHour.swift */,
 				329632A02A055904004E8E40 /* HoursView+KidsEatFree.swift */,
+				32C218202A2796B2007B2480 /* HoursView+Brunch.swift */,
 			);
 			path = HoursViews;
 			sourceTree = "<group>";
@@ -243,7 +241,6 @@
 			children = (
 				32A889322A16555200FABC61 /* OrderView.swift */,
 				32A889342A1655D900FABC61 /* OrderCell.swift */,
-				323D76A02A265DE300C41AA6 /* OrderItemView.swift */,
 				326D4CC52A2324CE00BBA7FA /* OrderItemView.swift */,
 			);
 			path = LocationOrdering;
@@ -389,8 +386,6 @@
 				329632A62A093D00004E8E40 /* MenuViewController.swift */,
 				32A889042A0AF3BC00FABC61 /* Tester.swift */,
 				32A8892F2A1654CC00FABC61 /* OrderViewController.swift */,
-
-				323D76A22A2663F900C41AA6 /* OrderItemViewController.swift */,
 				326D4CC72A23280400BBA7FA /* OrderItemViewController.swift */,
 			);
 			path = Controllers;
@@ -414,7 +409,6 @@
 			children = (
 				32D6D9782A0070800048299F /* PrivacyPolicyView.swift */,
 				32D6D97C2A0073D70048299F /* TermsOfUseView.swift */,
-				32D6D97E2A0074040048299F /* LoyaltyRewardsTermsView.swift */,
 			);
 			path = Legal;
 			sourceTree = "<group>";
@@ -574,6 +568,7 @@
 				32D6D94D29FDDDDF0048299F /* ViewController.swift in Sources */,
 				3296329F2A0558F4004E8E40 /* HoursView+HappyHour.swift in Sources */,
 				329632A72A093D00004E8E40 /* MenuViewController.swift in Sources */,
+				32C218212A2796B2007B2480 /* HoursView+Brunch.swift in Sources */,
 				32CB54AF2A01528700A61BCA /* AllLocationsViewController.swift in Sources */,
 				32A889242A13DB9600FABC61 /* TableView-ScrollToTop.swift in Sources */,
 				32D6D9942A0142C30048299F /* PFLocation.swift in Sources */,
@@ -604,17 +599,8 @@
 				326D4C852A1EBCAE00BBA7FA /* SmokedWingsMod.swift in Sources */,
 				32D6D98B2A00774C0048299F /* LoyaltySignUpView.swift in Sources */,
 				32CB54B32A01708400A61BCA /* PFMenuOption.swift in Sources */,
-
-				323D76A32A2663F900C41AA6 /* OrderItemViewController.swift in Sources */,
-				32D6D97F2A0074040048299F /* LoyaltyRewardsTermsView.swift in Sources */,
-				3296329D2A0558E7004E8E40 /* HoursView+Brunch.swift in Sources */,
-				323D76A12A265DE300C41AA6 /* OrderItemView.swift in Sources */,
 				326D4CC82A23280400BBA7FA /* OrderItemViewController.swift in Sources */,
-				32D6D97F2A0074040048299F /* LoyaltyRewardsTermsView.swift in Sources */,
-				3296329D2A0558E7004E8E40 /* HoursView+Brunch.swift in Sources */,
 				326D4CC62A2324CE00BBA7FA /* OrderItemView.swift in Sources */,
-				32D6D97F2A0074040048299F /* LoyaltyRewardsTermsView.swift in Sources */,
-				3296329D2A0558E7004E8E40 /* HoursView+Brunch.swift in Sources */,
 				32A889052A0AF3BC00FABC61 /* Tester.swift in Sources */,
 				329632982A03E974004E8E40 /* PFNavController.swift in Sources */,
 				32D6D97D2A0073D70048299F /* TermsOfUseView.swift in Sources */,
