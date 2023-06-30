@@ -51,6 +51,5 @@ class MappedLocation: NSObject, MKAnnotation {
 
   init(location: PFLocation) {
     self.coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
-    print(location.latitude)
   }
 }

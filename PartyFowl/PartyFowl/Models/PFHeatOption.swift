@@ -13,3 +13,11 @@ enum PFHeatOption: String, CaseIterable, Codable {
   case nashvilleHot = "nashville hot"
   case poultrygeist
 }
+
+enum PFTempOption: String, Codable, CaseIterable {
+  case rare
+  case mediumRare = "medium rare"
+  case medium
+  case mediumWell = "medium well"
+  case wellDone = "well done"
+}
