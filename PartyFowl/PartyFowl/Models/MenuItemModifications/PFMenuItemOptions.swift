@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+enum PFMenuItemOptions: String, Codable, CaseIterable {
+  case chickenStyle = "chicken style"
+  case dressingChoice = "dressing choice"
+  case sides, modifications
+  case extraSauces = "extra sauces"
+  case tempOption = "temp option"
+}
