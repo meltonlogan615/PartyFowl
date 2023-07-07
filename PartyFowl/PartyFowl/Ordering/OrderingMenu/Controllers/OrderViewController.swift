@@ -22,6 +22,10 @@ class OrderViewController: UIViewController {
                                                        image: UIImage(systemName: "chevron.left"),
                                                        target: self,
                                                        action: #selector(dismissView))
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Cart",
+                                                        image: UIImage(systemName: "cart"),
+                                                        target: self,
+                                                        action: #selector(cartTapped))
     getMenu(for: "nashvilleMenu")
     styleOrdering()
     layoutOrdering()

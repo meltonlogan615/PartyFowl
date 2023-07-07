@@ -12,14 +12,18 @@ class OrderItemViewController: UIViewController {
   var itemHeader: ItemViewHeader!
   var optionsTable: ItemsTable!
   var sections: [PFMenuItemOptions] = []
+  var addToOrderButton: ActionButton!
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    print("OrderItemViewController")
     navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back",
                                                        image: UIImage(systemName: "chevron.left"),
                                                        target: self,
                                                        action: #selector(dismissView))
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Cart",
+                                                        image: UIImage(systemName: "cart"),
+                                                        target: self,
+                                                        action: #selector(cartTapped))
     styleOrderView()
     layoutOrderView()
   }
@@ -33,9 +37,14 @@ extension OrderItemViewController {
 
     optionsTable = ItemsTable()
     optionsTable.translatesAutoresizingMaskIntoConstraints = false
+
     setupSections(for: item)
     optionsTable.table.dataSource = self
     optionsTable.table.delegate = self
+    optionsTable.backgroundColor = .blue
+
+    addToOrderButton = ActionButton(titled: "Add To Order")
+    addToOrderButton.translatesAutoresizingMaskIntoConstraints = false
   }
 
   private func layoutOrderView() {
@@ -51,7 +60,16 @@ extension OrderItemViewController {
       optionsTable.topAnchor.constraint(equalToSystemSpacingBelow: itemHeader.bottomAnchor, multiplier: 1),
       optionsTable.leadingAnchor.constraint(equalTo: itemHeader.leadingAnchor),
       optionsTable.trailingAnchor.constraint(equalTo: itemHeader.trailingAnchor),
-      optionsTable.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+      view.safeAreaLayoutGuide.bottomAnchor.constraint(equalToSystemSpacingBelow: optionsTable.bottomAnchor,
+                                                       multiplier: 6)
+    ])
+
+    view.addSubview(addToOrderButton)
+    NSLayoutConstraint.activate([
+      addToOrderButton.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 4),
+      view.trailingAnchor.constraint(equalToSystemSpacingAfter: addToOrderButton.trailingAnchor, multiplier: 4),
+      view.safeAreaLayoutGuide.bottomAnchor.constraint(equalToSystemSpacingBelow: addToOrderButton.bottomAnchor,
+                                                       multiplier: 2)
     ])
   }
 }
@@ -86,7 +104,7 @@ extension OrderItemViewController: UITableViewDataSource {
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     guard let cell = tableView.dequeueReusableCell(withIdentifier: ItemContainerCell.reuseID,
-                                                   for: indexPath) as? ItemContainerCell else {
+                                                     for: indexPath) as? ItemContainerCell else {
       return UITableViewCell()
     }
     cell.titleLabel.text = sections[indexPath.row].rawValue.capitalized

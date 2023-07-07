@@ -19,12 +19,18 @@
 		3290D56E2A49C51000F50788 /* ItemContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D56D2A49C51000F50788 /* ItemContainerCell.swift */; };
 		3290D5702A4A01F600F50788 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D56F2A4A01F600F50788 /* TestVC.swift */; };
 		3290D5832A4DD1A400F50788 /* PFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5822A4DD1A400F50788 /* PFViewController.swift */; };
-		3290D5852A4DD22D00F50788 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5842A4DD22D00F50788 /* OptionsViewController.swift */; };
+		3290D5852A4DD22D00F50788 /* OptionsViewControllerOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5842A4DD22D00F50788 /* OptionsViewControllerOld.swift */; };
 		3290D5872A4DD75900F50788 /* TestTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5862A4DD75900F50788 /* TestTable.swift */; };
 		3290D58A2A4DE27000F50788 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5892A4DE27000F50788 /* TestCell.swift */; };
 		3290D58C2A4F12E000F50788 /* ItemsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D58B2A4F12E000F50788 /* ItemsTable.swift */; };
 		3290D5A92A4F688C00F50788 /* OptionsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5A82A4F688C00F50788 /* OptionsTable.swift */; };
 		3290D5AB2A4F690600F50788 /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5AA2A4F690600F50788 /* OptionCell.swift */; };
+		3290D5AD2A55C70A00F50788 /* OptionsViewStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5AC2A55C70A00F50788 /* OptionsViewStack.swift */; };
+		3290D5AF2A55D07900F50788 /* ToggleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5AE2A55D07900F50788 /* ToggleRow.swift */; };
+		3290D5B12A55D17C00F50788 /* OptionsViewControllerv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5B02A55D17C00F50788 /* OptionsViewControllerv2.swift */; };
+		3290D5B32A56555C00F50788 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5B22A56555C00F50788 /* StepperRow.swift */; };
+		3290D5B52A565F9400F50788 /* AddToOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5B42A565F9400F50788 /* AddToOrderCell.swift */; };
+		3290D5B72A57044400F50788 /* VC-CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290D5B62A57044400F50788 /* VC-CartButton.swift */; };
 		329632982A03E974004E8E40 /* PFNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632972A03E974004E8E40 /* PFNavController.swift */; };
 		3296329A2A055700004E8E40 /* HoursView+MainHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329632992A055700004E8E40 /* HoursView+MainHours.swift */; };
 		3296329F2A0558F4004E8E40 /* HoursView+HappyHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296329E2A0558F4004E8E40 /* HoursView+HappyHour.swift */; };
@@ -94,12 +100,18 @@
 		3290D56D2A49C51000F50788 /* ItemContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemContainerCell.swift; sourceTree = "<group>"; };
 		3290D56F2A4A01F600F50788 /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
 		3290D5822A4DD1A400F50788 /* PFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFViewController.swift; sourceTree = "<group>"; };
-		3290D5842A4DD22D00F50788 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		3290D5842A4DD22D00F50788 /* OptionsViewControllerOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewControllerOld.swift; sourceTree = "<group>"; };
 		3290D5862A4DD75900F50788 /* TestTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTable.swift; sourceTree = "<group>"; };
 		3290D5892A4DE27000F50788 /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
 		3290D58B2A4F12E000F50788 /* ItemsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTable.swift; sourceTree = "<group>"; };
 		3290D5A82A4F688C00F50788 /* OptionsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTable.swift; sourceTree = "<group>"; };
 		3290D5AA2A4F690600F50788 /* OptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCell.swift; sourceTree = "<group>"; };
+		3290D5AC2A55C70A00F50788 /* OptionsViewStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewStack.swift; sourceTree = "<group>"; };
+		3290D5AE2A55D07900F50788 /* ToggleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleRow.swift; sourceTree = "<group>"; };
+		3290D5B02A55D17C00F50788 /* OptionsViewControllerv2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewControllerv2.swift; sourceTree = "<group>"; };
+		3290D5B22A56555C00F50788 /* StepperRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperRow.swift; sourceTree = "<group>"; };
+		3290D5B42A565F9400F50788 /* AddToOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToOrderCell.swift; sourceTree = "<group>"; };
+		3290D5B62A57044400F50788 /* VC-CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC-CartButton.swift"; sourceTree = "<group>"; };
 		329632972A03E974004E8E40 /* PFNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFNavController.swift; sourceTree = "<group>"; };
 		329632992A055700004E8E40 /* HoursView+MainHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+MainHours.swift"; sourceTree = "<group>"; };
 		3296329E2A0558F4004E8E40 /* HoursView+HappyHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoursView+HappyHour.swift"; sourceTree = "<group>"; };
@@ -363,6 +375,7 @@
 				326D4CC52A2324CE00BBA7FA /* ItemViewHeader.swift */,
 				3290D58B2A4F12E000F50788 /* ItemsTable.swift */,
 				3290D56D2A49C51000F50788 /* ItemContainerCell.swift */,
+				3290D5B42A565F9400F50788 /* AddToOrderCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -387,8 +400,11 @@
 		3290D5A42A4F60B700F50788 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3290D5AC2A55C70A00F50788 /* OptionsViewStack.swift */,
 				3290D5A82A4F688C00F50788 /* OptionsTable.swift */,
 				3290D5AA2A4F690600F50788 /* OptionCell.swift */,
+				3290D5AE2A55D07900F50788 /* ToggleRow.swift */,
+				3290D5B22A56555C00F50788 /* StepperRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -396,7 +412,8 @@
 		3290D5A52A4F60BC00F50788 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3290D5842A4DD22D00F50788 /* OptionsViewController.swift */,
+				3290D5842A4DD22D00F50788 /* OptionsViewControllerOld.swift */,
+				3290D5B02A55D17C00F50788 /* OptionsViewControllerv2.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -448,6 +465,7 @@
 				32A889232A13DB9600FABC61 /* TableView-ScrollToTop.swift */,
 				32A889252A147ABF00FABC61 /* UIStackView+ScrollToCenter.swift */,
 				326D4CC92A23286A00BBA7FA /* TableView-PresentView.swift */,
+				3290D5B62A57044400F50788 /* VC-CartButton.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -711,6 +729,7 @@
 			files = (
 				32A889262A147ABF00FABC61 /* UIStackView+ScrollToCenter.swift in Sources */,
 				32CB54B52A01807600A61BCA /* LocationViewController.swift in Sources */,
+				3290D5AF2A55D07900F50788 /* ToggleRow.swift in Sources */,
 				326D4CCA2A23286A00BBA7FA /* TableView-PresentView.swift in Sources */,
 				3290D5832A4DD1A400F50788 /* PFViewController.swift in Sources */,
 				3290D58C2A4F12E000F50788 /* ItemsTable.swift in Sources */,
@@ -721,7 +740,7 @@
 				3296329F2A0558F4004E8E40 /* HoursView+HappyHour.swift in Sources */,
 				329632A72A093D00004E8E40 /* MenuViewController.swift in Sources */,
 				32C218212A2796B2007B2480 /* HoursView+Brunch.swift in Sources */,
-				3290D5852A4DD22D00F50788 /* OptionsViewController.swift in Sources */,
+				3290D5852A4DD22D00F50788 /* OptionsViewControllerOld.swift in Sources */,
 				32CB54AF2A01528700A61BCA /* AllLocationsViewController.swift in Sources */,
 				32A889242A13DB9600FABC61 /* TableView-ScrollToTop.swift in Sources */,
 				32D6D9942A0142C30048299F /* PFLocation.swift in Sources */,
@@ -731,6 +750,7 @@
 				32A8890F2A0B234000FABC61 /* VC-DismissOnBoop.swift in Sources */,
 				32CB54BB2A01A66400A61BCA /* HoursView.swift in Sources */,
 				32D6D9752A000A8A0048299F /* AboutUsView.swift in Sources */,
+				3290D5B12A55D17C00F50788 /* OptionsViewControllerv2.swift in Sources */,
 				3290D56E2A49C51000F50788 /* ItemContainerCell.swift in Sources */,
 				32D6D98D2A0077670048299F /* LoyaltySignInView.swift in Sources */,
 				32A889332A16555200FABC61 /* OrderView.swift in Sources */,
@@ -747,12 +767,14 @@
 				32D6D9872A0076870048299F /* ContactView.swift in Sources */,
 				326D4C882A1EBD8A00BBA7FA /* PFDressingOption.swift in Sources */,
 				3290D5A92A4F688C00F50788 /* OptionsTable.swift in Sources */,
+				3290D5B32A56555C00F50788 /* StepperRow.swift in Sources */,
 				32A8891C2A0C060400FABC61 /* MenuTableView.swift in Sources */,
 				32CB54C22A01B2E300A61BCA /* LocationButtonView.swift in Sources */,
 				32CB54B92A01A3D300A61BCA /* Divider.swift in Sources */,
 				326D4C852A1EBCAE00BBA7FA /* SmokedWingsMod.swift in Sources */,
 				32D6D98B2A00774C0048299F /* LoyaltySignUpView.swift in Sources */,
 				32C218282A27C262007B2480 /* PFMenuItemOptions.swift in Sources */,
+				3290D5B52A565F9400F50788 /* AddToOrderCell.swift in Sources */,
 				3290D5AB2A4F690600F50788 /* OptionCell.swift in Sources */,
 				32CB54B32A01708400A61BCA /* PFMenuCategory.swift in Sources */,
 				326D4CC82A23280400BBA7FA /* OrderItemViewController.swift in Sources */,
@@ -769,6 +791,8 @@
 				32A889302A1654CC00FABC61 /* OrderViewController.swift in Sources */,
 				3290D5872A4DD75900F50788 /* TestTable.swift in Sources */,
 				32A8891E2A0C063D00FABC61 /* PFViewModel.swift in Sources */,
+				3290D5B72A57044400F50788 /* VC-CartButton.swift in Sources */,
+				3290D5AD2A55C70A00F50788 /* OptionsViewStack.swift in Sources */,
 				32A8891A2A0C058400FABC61 /* MenuItemCell.swift in Sources */,
 				329632A12A055904004E8E40 /* HoursView+KidsEatFree.swift in Sources */,
 				32CB54BF2A01A8A900A61BCA /* ActionButton.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OptionsViewController: UIViewController {
+class OptionsViewControllerOld: UIViewController {
   var table: OptionsTable!
   var menuItem: PFMenuItem!
   var options: PFMenuItemOptions!
@@ -30,11 +30,12 @@ class OptionsViewController: UIViewController {
   }
 }
 
-extension OptionsViewController {
+extension OptionsViewControllerOld {
   private func styleView() {
     table = OptionsTable()
     table.translatesAutoresizingMaskIntoConstraints = false
     table.table.dataSource = self
+    table.table.delegate = self
 
     view.addSubview(table)
     NSLayoutConstraint.activate([
@@ -47,7 +48,7 @@ extension OptionsViewController {
   }
 }
 
-extension OptionsViewController: UITableViewDataSource {
+extension OptionsViewControllerOld: UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return choices.count
   }
@@ -59,18 +60,14 @@ extension OptionsViewController: UITableViewDataSource {
     }
     cell.optionLabel.text = choices[indexPath.row].uppercased()
     switch options {
-    case .chickenStyle:
-      cell.setControl(to: .toggle)
-    case .dressingChoice:
-      cell.setControl(to: .toggle)
-    case .sides:
-      cell.setControl(to: .toggle)
-    case .modifications:
+    case .chickenStyle,
+        .dressingChoice,
+        .sides,
+        .modifications,
+        .tempOption:
       cell.setControl(to: .toggle)
     case .extraSauces:
       cell.setControl(to: .stepper)
-    case .tempOption:
-      cell.setControl(to: .toggle)
     case .none:
       print()
     }
@@ -78,7 +75,13 @@ extension OptionsViewController: UITableViewDataSource {
   }
 }
 
-extension OptionsViewController {
+extension OptionsViewControllerOld: UITableViewDelegate {
+  func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+    print(choices[indexPath.row])
+  }
+}
+
+extension OptionsViewControllerOld {
   private func setOptionValues(for option: PFMenuItemOptions) {
     switch option {
     case .chickenStyle:
@@ -100,5 +103,21 @@ extension OptionsViewController {
         choices.append(temp.rawValue)
       }
     }
+  }
+}
+
+extension OptionsViewControllerOld {
+  @objc
+  func didMakeSelection(_ sender: UISwitch, at index: IndexPath) {
+    if sender.isOn {
+      print("On it")
+    } else {
+      print("fuck")
+    }
+  }
+
+  @objc
+  func didChangeQty(_ sender: UIStepper) {
+
   }
 }

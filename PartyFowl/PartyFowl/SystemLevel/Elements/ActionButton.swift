@@ -17,8 +17,8 @@ class ActionButton: UIButton {
 
   convenience init(titled title: String) {
     self.init()
-    layer.cornerRadius = 0
-    clipsToBounds = false
+    layer.cornerRadius = 12
+    clipsToBounds = true
     self.title = title
     var config = UIButton.Configuration.plain()
     config.attributedTitle = AttributedString(title)

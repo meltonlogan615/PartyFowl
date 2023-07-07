@@ -14,7 +14,8 @@ enum OptionControl {
 class OptionCell: UITableViewCell {
   static let reuseID = "testCell"
   var optionLabel: UILabel!
-  var optionControl: UIView!
+  var optionControl: UIControl!
+  var selection = String()
 
   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
     super.init(style: style, reuseIdentifier: TestCell.reuseID)
@@ -31,9 +32,9 @@ extension OptionCell {
   private func styleCell() {
     optionLabel = UILabel()
     optionLabel.translatesAutoresizingMaskIntoConstraints = false
-    optionLabel.font = .preferredFont(forTextStyle: .headline)
+    optionLabel.font = .preferredFont(forTextStyle: .body)
 
-    optionControl = UIView()
+    optionControl = UIControl()
     optionControl.translatesAutoresizingMaskIntoConstraints = false
   }
 
@@ -56,6 +57,7 @@ extension OptionCell {
     case .stepper:
       option = setStepper()
     }
+
     optionControl.addSubview(option)
     NSLayoutConstraint.activate([
       option.topAnchor.constraint(equalTo: optionControl.topAnchor),
@@ -63,6 +65,7 @@ extension OptionCell {
       option.trailingAnchor.constraint(equalTo: optionControl.trailingAnchor),
       option.bottomAnchor.constraint(equalTo: optionControl.bottomAnchor)
     ])
+
     contentView.addSubview(optionControl)
     NSLayoutConstraint.activate([
       optionControl.topAnchor.constraint(equalTo: optionLabel.topAnchor),
@@ -75,6 +78,7 @@ extension OptionCell {
     let toggle = UISwitch()
     toggle.translatesAutoresizingMaskIntoConstraints = false
     toggle.onTintColor = K.brandRed
+    toggle.addTarget(self, action: #selector(didSelectOption), for: .valueChanged)
     return toggle
   }
 
@@ -96,5 +100,14 @@ extension OptionCell {
       return stack
     }()
     return stack
+  }
+}
+
+extension OptionCell {
+  @objc
+  func didSelectOption() {
+    guard let choice = optionLabel.text else { return }
+    selection = choice
+    print(selection)
   }
 }

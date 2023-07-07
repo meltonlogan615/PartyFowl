@@ -99,7 +99,7 @@ extension TestVC {
 
 extension TestVC: UITableViewDelegate {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    let optionView = OptionsViewController(menuItem: item, options: .chickenStyle)
+    let optionView = OptionsViewControllerOld(menuItem: item, options: .chickenStyle)
     let nav = UINavigationController(rootViewController: optionView)
     nav.modalPresentationStyle = .pageSheet
     nav.navigationBar.backgroundColor = .systemBackground

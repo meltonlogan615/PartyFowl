@@ -27,6 +27,7 @@ extension ItemsTable {
     table = UITableView()
     table.translatesAutoresizingMaskIntoConstraints = false
     table.register(ItemContainerCell.self, forCellReuseIdentifier: ItemContainerCell.reuseID)
+    table.register(AddToOrderCell.self, forCellReuseIdentifier: AddToOrderCell.reuseID)
   }
 
   private func layoutView() {
