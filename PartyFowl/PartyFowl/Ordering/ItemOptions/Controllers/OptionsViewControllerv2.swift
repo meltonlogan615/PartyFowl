@@ -4,7 +4,6 @@
 //
 //  Created by Logan Melton on 7/5/23.
 //
-//  swiftlint: disable for_where
 
 import UIKit
 
@@ -118,9 +117,9 @@ extension OptionsViewController {
 extension OptionsViewController {
   @objc
   func didMakeSingleSelection(_ sender: UISwitch) {
-    guard let rows = optionsView.stackView.arrangedSubviews as? [ToggleRow] else { return }
-    for row in rows {
-      if row.toggle.tag != sender.tag {
+    for row in optionsView.stackView.arrangedSubviews {
+      guard let row = row as? ToggleRow else { return }
+      if row.toggle.tag != sender.tag && row.toggle.isOn {
         row.toggle.setOn(false, animated: true)
       }
     }

@@ -13,6 +13,7 @@ class OrderItemViewController: UIViewController {
   var optionsTable: ItemsTable!
   var sections: [PFMenuItemOptions] = []
   var addToOrderButton: ActionButton!
+  var itemToOrder: PFItemOrder?
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -45,6 +46,7 @@ extension OrderItemViewController {
 
     addToOrderButton = ActionButton(titled: "Add To Order")
     addToOrderButton.translatesAutoresizingMaskIntoConstraints = false
+    addToOrderButton.addTarget(self, action: #selector(itemAddedToOrder), for: .touchUpInside)
   }
 
   private func layoutOrderView() {
@@ -125,5 +127,12 @@ extension OrderItemViewController: UITableViewDelegate {
       sheet.largestUndimmedDetentIdentifier = .medium
     }
     present(nav, animated: true)
+  }
+}
+
+extension OrderItemViewController {
+  @objc
+  func itemAddedToOrder() {
+    itemToOrder = PFItemOrder(itemName: item.menuItem)
   }
 }

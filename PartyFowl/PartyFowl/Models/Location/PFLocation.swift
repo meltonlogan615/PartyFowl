@@ -5,16 +5,7 @@
 //  Created by Logan Melton on 5/2/23.
 //
 
-import MapKit
 import Foundation
-
-enum PFLocationName: String, Codable, CaseIterable, Hashable {
-  case downtown = "Downtown Nashville"
-  case donelson, murfreesboro
-  case coolSprings = "Cool Springs (Franklin, TN)"
-  case hamitlonPlace = "Hamilton Place (Chattanooga, TN)"
-  case destin
-}
 
 struct PFLocation: Codable {
   var name: String
@@ -44,12 +35,4 @@ struct PFLocation: Codable {
   var kidsEatFree: String?
   var menu: String?
   var info: String
-}
-
-class MappedLocation: NSObject, MKAnnotation {
-  var coordinate: CLLocationCoordinate2D
-
-  init(location: PFLocation) {
-    self.coordinate = CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)
-  }
 }

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321983FC2A6F57FA002A5842 /* PFItemOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321983FB2A6F57FA002A5842 /* PFItemOrder.swift */; };
+		321983FE2A6F5826002A5842 /* PFDeliveryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321983FD2A6F5826002A5842 /* PFDeliveryMethod.swift */; };
+		321984012A6F586A002A5842 /* PFLocationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321984002A6F586A002A5842 /* PFLocationName.swift */; };
+		321984032A6F5885002A5842 /* PFMappedLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321984022A6F5885002A5842 /* PFMappedLocation.swift */; };
 		324446212A02DD0F006B35D4 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324446202A02DD0F006B35D4 /* StatusBar.swift */; };
 		326D4C7E2A1EB7AD00BBA7FA /* PFChickenStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C7D2A1EB7AD00BBA7FA /* PFChickenStyle.swift */; };
-		326D4C812A1EBC5D00BBA7FA /* PoutineMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C802A1EBC5D00BBA7FA /* PoutineMod.swift */; };
-		326D4C832A1EBC8000BBA7FA /* HouseWedgeMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C822A1EBC8000BBA7FA /* HouseWedgeMod.swift */; };
-		326D4C852A1EBCAE00BBA7FA /* SmokedWingsMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C842A1EBCAE00BBA7FA /* SmokedWingsMod.swift */; };
 		326D4C882A1EBD8A00BBA7FA /* PFDressingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4C872A1EBD8A00BBA7FA /* PFDressingOption.swift */; };
 		326D4CC62A2324CE00BBA7FA /* ItemViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4CC52A2324CE00BBA7FA /* ItemViewHeader.swift */; };
 		326D4CC82A23280400BBA7FA /* OrderItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D4CC72A23280400BBA7FA /* OrderItemViewController.swift */; };
@@ -87,12 +88,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		321983FB2A6F57FA002A5842 /* PFItemOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFItemOrder.swift; sourceTree = "<group>"; };
+		321983FD2A6F5826002A5842 /* PFDeliveryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDeliveryMethod.swift; sourceTree = "<group>"; };
+		321984002A6F586A002A5842 /* PFLocationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFLocationName.swift; sourceTree = "<group>"; };
+		321984022A6F5885002A5842 /* PFMappedLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFMappedLocation.swift; sourceTree = "<group>"; };
 		324446202A02DD0F006B35D4 /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
 		326D4C7C2A1EB61F00BBA7FA /* ExtraSauces.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExtraSauces.json; sourceTree = "<group>"; };
 		326D4C7D2A1EB7AD00BBA7FA /* PFChickenStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFChickenStyle.swift; sourceTree = "<group>"; };
-		326D4C802A1EBC5D00BBA7FA /* PoutineMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoutineMod.swift; sourceTree = "<group>"; };
-		326D4C822A1EBC8000BBA7FA /* HouseWedgeMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseWedgeMod.swift; sourceTree = "<group>"; };
-		326D4C842A1EBCAE00BBA7FA /* SmokedWingsMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokedWingsMod.swift; sourceTree = "<group>"; };
 		326D4C872A1EBD8A00BBA7FA /* PFDressingOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFDressingOption.swift; sourceTree = "<group>"; };
 		326D4CC52A2324CE00BBA7FA /* ItemViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewHeader.swift; sourceTree = "<group>"; };
 		326D4CC72A23280400BBA7FA /* OrderItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItemViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +187,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		321983FA2A6F5782002A5842 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				326D4C7D2A1EB7AD00BBA7FA /* PFChickenStyle.swift */,
+				32A888FE2A0AE8BD00FABC61 /* PFMenuItem.swift */,
+				32CB54B22A01708400A61BCA /* PFMenuCategory.swift */,
+				32A889292A147E7F00FABC61 /* PFHeatOption.swift */,
+				326D4C872A1EBD8A00BBA7FA /* PFDressingOption.swift */,
+				32C218272A27C262007B2480 /* PFMenuItemOptions.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		321983FF2A6F584D002A5842 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				32D6D9932A0142C30048299F /* PFLocation.swift */,
+				321984002A6F586A002A5842 /* PFLocationName.swift */,
+				321984022A6F5885002A5842 /* PFMappedLocation.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		324446222A030D79006B35D4 /* SystemViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,18 +217,6 @@
 				3290D5822A4DD1A400F50788 /* PFViewController.swift */,
 			);
 			path = SystemViewControllers;
-			sourceTree = "<group>";
-		};
-		326D4C7F2A1EBC4100BBA7FA /* MenuItemModifications */ = {
-			isa = PBXGroup;
-			children = (
-				326D4C802A1EBC5D00BBA7FA /* PoutineMod.swift */,
-				326D4C822A1EBC8000BBA7FA /* HouseWedgeMod.swift */,
-				326D4C842A1EBCAE00BBA7FA /* SmokedWingsMod.swift */,
-				326D4C872A1EBD8A00BBA7FA /* PFDressingOption.swift */,
-				32C218272A27C262007B2480 /* PFMenuItemOptions.swift */,
-			);
-			path = MenuItemModifications;
 			sourceTree = "<group>";
 		};
 		3290D5712A4B45D600F50788 /* CompanyInfo */ = {
@@ -474,6 +487,8 @@
 			isa = PBXGroup;
 			children = (
 				32A889372A165CB000FABC61 /* PFOrder.swift */,
+				321983FB2A6F57FA002A5842 /* PFItemOrder.swift */,
+				321983FD2A6F5826002A5842 /* PFDeliveryMethod.swift */,
 			);
 			path = Ordering;
 			sourceTree = "<group>";
@@ -555,14 +570,10 @@
 		32D6D96229FDDE350048299F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				326D4C7F2A1EBC4100BBA7FA /* MenuItemModifications */,
+				321983FF2A6F584D002A5842 /* Location */,
+				321983FA2A6F5782002A5842 /* Menu */,
 				32A889362A165C9800FABC61 /* Ordering */,
 				32D6D98E2A0141020048299F /* JSONFiles */,
-				32D6D9932A0142C30048299F /* PFLocation.swift */,
-				32CB54B22A01708400A61BCA /* PFMenuCategory.swift */,
-				32A888FE2A0AE8BD00FABC61 /* PFMenuItem.swift */,
-				32A889292A147E7F00FABC61 /* PFHeatOption.swift */,
-				326D4C7D2A1EB7AD00BBA7FA /* PFChickenStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -742,6 +753,7 @@
 				32C218212A2796B2007B2480 /* HoursView+Brunch.swift in Sources */,
 				3290D5852A4DD22D00F50788 /* OptionsViewControllerOld.swift in Sources */,
 				32CB54AF2A01528700A61BCA /* AllLocationsViewController.swift in Sources */,
+				321984012A6F586A002A5842 /* PFLocationName.swift in Sources */,
 				32A889242A13DB9600FABC61 /* TableView-ScrollToTop.swift in Sources */,
 				32D6D9942A0142C30048299F /* PFLocation.swift in Sources */,
 				329632A32A05662D004E8E40 /* Constants.swift in Sources */,
@@ -767,27 +779,27 @@
 				32D6D9872A0076870048299F /* ContactView.swift in Sources */,
 				326D4C882A1EBD8A00BBA7FA /* PFDressingOption.swift in Sources */,
 				3290D5A92A4F688C00F50788 /* OptionsTable.swift in Sources */,
+				321983FE2A6F5826002A5842 /* PFDeliveryMethod.swift in Sources */,
 				3290D5B32A56555C00F50788 /* StepperRow.swift in Sources */,
 				32A8891C2A0C060400FABC61 /* MenuTableView.swift in Sources */,
 				32CB54C22A01B2E300A61BCA /* LocationButtonView.swift in Sources */,
 				32CB54B92A01A3D300A61BCA /* Divider.swift in Sources */,
-				326D4C852A1EBCAE00BBA7FA /* SmokedWingsMod.swift in Sources */,
 				32D6D98B2A00774C0048299F /* LoyaltySignUpView.swift in Sources */,
 				32C218282A27C262007B2480 /* PFMenuItemOptions.swift in Sources */,
 				3290D5B52A565F9400F50788 /* AddToOrderCell.swift in Sources */,
 				3290D5AB2A4F690600F50788 /* OptionCell.swift in Sources */,
+				321983FC2A6F57FA002A5842 /* PFItemOrder.swift in Sources */,
 				32CB54B32A01708400A61BCA /* PFMenuCategory.swift in Sources */,
 				326D4CC82A23280400BBA7FA /* OrderItemViewController.swift in Sources */,
 				326D4CC62A2324CE00BBA7FA /* ItemViewHeader.swift in Sources */,
 				3290D5702A4A01F600F50788 /* TestVC.swift in Sources */,
+				321984032A6F5885002A5842 /* PFMappedLocation.swift in Sources */,
 				329632982A03E974004E8E40 /* PFNavController.swift in Sources */,
 				32D6D97D2A0073D70048299F /* TermsOfUseView.swift in Sources */,
 				32A888FF2A0AE8BD00FABC61 /* PFMenuItem.swift in Sources */,
-				326D4C832A1EBC8000BBA7FA /* HouseWedgeMod.swift in Sources */,
 				32A889172A0C028900FABC61 /* Stack-RemoveAllSubViews.swift in Sources */,
 				32C218262A27C011007B2480 /* OrderOptionsView.swift in Sources */,
 				3290D58A2A4DE27000F50788 /* TestCell.swift in Sources */,
-				326D4C812A1EBC5D00BBA7FA /* PoutineMod.swift in Sources */,
 				32A889302A1654CC00FABC61 /* OrderViewController.swift in Sources */,
 				3290D5872A4DD75900F50788 /* TestTable.swift in Sources */,
 				32A8891E2A0C063D00FABC61 /* PFViewModel.swift in Sources */,

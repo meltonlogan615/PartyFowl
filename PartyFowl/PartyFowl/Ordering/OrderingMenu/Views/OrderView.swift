@@ -38,10 +38,8 @@ extension OrderView {
     addSubview(menuOptions)
     NSLayoutConstraint.activate([
       menuOptions.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
-      menuOptions.leadingAnchor.constraint(equalToSystemSpacingAfter: leadingAnchor,
-                                           multiplier: 1),
-      trailingAnchor.constraint(equalToSystemSpacingAfter: menuOptions.trailingAnchor,
-                                multiplier: 1),
+      menuOptions.leadingAnchor.constraint(equalTo: leadingAnchor),
+      trailingAnchor.constraint(equalTo: menuOptions.trailingAnchor),
       menuOptions.heightAnchor.constraint(equalToConstant: 48)
     ])
 

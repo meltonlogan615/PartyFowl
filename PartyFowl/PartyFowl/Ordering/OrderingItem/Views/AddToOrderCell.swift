@@ -13,6 +13,7 @@ class AddToOrderCell: UITableViewCell {
 
   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
     super.init(style: style, reuseIdentifier: AddToOrderCell.reuseID)
+    print("in use")
   }
 
   required init?(coder: NSCoder) {

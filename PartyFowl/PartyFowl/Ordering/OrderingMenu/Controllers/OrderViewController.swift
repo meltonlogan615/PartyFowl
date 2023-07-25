@@ -15,6 +15,7 @@ class OrderViewController: UIViewController {
   var menuResults: [PFMenuResults]!
   var menuItems: [PFMenuItem]!
   var selectedIndex: Int = 0
+  var order: PFOrder?
 
   override func viewDidLoad() {
     super.viewDidLoad()
