@@ -7,20 +7,9 @@
 
 import Foundation
 
-enum DeliveryMethod: String, Codable, CaseIterable {
-  case pickup, grubhub
-}
-
-struct PFItemOrder: Codable {
-  var customerName: String
-  var itemName: String
-  var heatLevel: PFHeatOption?
-  var qty: Int
-}
-
-struct PFOrder: Codable {
-  var customer: String
+class PFOrder: Codable {
+  var customer: String?
   var timeOrderPlaced = Date.now
-  var deliveryMethod: DeliveryMethod
-  var orderedItems: [PFItemOrder]
+  var deliveryMethod: PFDeliveryMethod?
+  var orderedItems: [PFItemOrder]?
 }
