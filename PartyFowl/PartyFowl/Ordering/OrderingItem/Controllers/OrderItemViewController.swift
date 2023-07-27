@@ -13,7 +13,8 @@ class OrderItemViewController: UIViewController {
   var optionsTable: ItemsTable!
   var sections: [PFMenuItemOptions] = []
   var addToOrderButton: ActionButton!
-  var itemToOrder: PFItemOrder?
+  var order = PFOrder()
+  var itemToOrder = PFItemOrder()
 
   override func viewDidLoad() {
     super.viewDidLoad()

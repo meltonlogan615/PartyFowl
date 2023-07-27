@@ -17,5 +17,5 @@ enum PFDressingOption: String, Codable, CaseIterable {
   case balsamicVingairette = "balsamic vingairette"
   case cilantroLimeVingairette = "cilantro lime vingairette"
   case garlicLemonVingairette = "garlic lemon vingairette"
-  case noDressing = "no dressing"
+//  case noDressing = "no dressing"
 }

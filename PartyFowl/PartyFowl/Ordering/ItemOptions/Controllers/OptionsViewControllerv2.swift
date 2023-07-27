@@ -133,8 +133,8 @@ extension OptionsViewController {
 
   @objc
   func didChangeQty(_ sender: UIStepper) {
-    guard let rows = optionsView.stackView.arrangedSubviews as? [StepperRow] else { return }
-    for row in rows {
+    for row in optionsView.stackView.arrangedSubviews {
+      guard let row = row as? StepperRow else { return }
       row.countLabel.text = String(format: "%.0f", row.stepper.value)
     }
   }

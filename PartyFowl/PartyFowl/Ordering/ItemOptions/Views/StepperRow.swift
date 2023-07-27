@@ -32,7 +32,7 @@ extension StepperRow {
     countLabel = UILabel()
     countLabel.translatesAutoresizingMaskIntoConstraints = false
     countLabel.font = .preferredFont(forTextStyle: .body)
-    countLabel.text = "0"
+    countLabel.text = String(format: "%.0f", 0)
 
     stepper = UIStepper()
     stepper.translatesAutoresizingMaskIntoConstraints = false
