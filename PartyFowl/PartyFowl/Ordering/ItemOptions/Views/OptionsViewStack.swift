@@ -68,7 +68,6 @@ extension OptionViewStack {
 
 extension OptionViewStack {
   func fillStack(with options: [String]) {
-    print("running")
     for option in options {
     let row = ToggleRow()
     row.translatesAutoresizingMaskIntoConstraints = false

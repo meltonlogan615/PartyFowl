@@ -13,9 +13,17 @@ class OptionsViewController: UIViewController {
   var options: PFMenuItemOptions!
   var choices: [String] = []
 
+  var itemToOrder = PFItemOrder()
+  var chickenStyle: PFChickenStyle?
+  var dressingChoice: PFDressingOption?
+  var sides: String?
+  var tempOption: PFTempOption?
+  var modifications: [String]?
+  var extraSauces: [[String: Int]]?
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Done",
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Cancel",
                                                         style: .done,
                                                         target: self,
                                                         action: #selector(dismissView))
@@ -47,6 +55,7 @@ extension OptionsViewController {
 }
 
 extension OptionsViewController {
+  /// Fills the OptionsView Stack with the correct UIControl based on choice category
   private func fillStack() {
     var tag = 0
     for choice in choices {
@@ -89,6 +98,7 @@ extension OptionsViewController {
   }
 }
 
+/// Sets the labels and controls for the selected options based on choice category
 extension OptionsViewController {
   private func setOptionValues(for option: PFMenuItemOptions) {
     switch option {
@@ -115,22 +125,29 @@ extension OptionsViewController {
 }
 
 extension OptionsViewController {
+  /// Sets the UISwitches for the OptionViewStack to only allow one selection
   @objc
   func didMakeSingleSelection(_ sender: UISwitch) {
-    for row in optionsView.stackView.arrangedSubviews {
-      guard let row = row as? ToggleRow else { return }
+    let allRows = optionsView.stackView.arrangedSubviews
+    for row in allRows {
+    guard let row = row as? ToggleRow else { return }
       if row.toggle.tag != sender.tag && row.toggle.isOn {
         row.toggle.setOn(false, animated: true)
+      } else if row.toggle.tag == sender.tag {
+        guard let selection = row.optionLabel.text else { return }
+        print(selection)
+//        TODO: Need method to assign the selected value to their correct itemToOrder properties.
       }
     }
-    print(choices[sender.tag])
   }
 
+  /// Sets the UISwitches for the OptionViewStack to allow multiple selections
   @objc
   func didMakeMultipleSelections(_ sender: UISwitch) {
-    print(choices[sender.tag])
+    guard modifications != nil else { return }
   }
 
+  /// Updates the label's text value to the stepper value, incrementing by 1 up or down.
   @objc
   func didChangeQty(_ sender: UIStepper) {
     guard let rows = optionsView.stackView.arrangedSubviews as? [StepperRow] else { return }
@@ -139,8 +156,44 @@ extension OptionsViewController {
     }
   }
 
+  // Updates the menuItem's properties with the appropriate value(s).
   @objc
   func didAddToOrder() {
+    if let chickenStyle = self.chickenStyle {
+      itemToOrder.chickenStyle = chickenStyle
+    }
+    if let dressing = self.dressingChoice {
+      itemToOrder.dressingChoice = dressing
+    }
+    if let side = sides {
+      itemToOrder.side = side
+    }
+    if let mods = modifications {
+      itemToOrder.modifications? += mods
+    }
+    print("Chicken Style: \(String(describing: itemToOrder.chickenStyle))")
+    print("Dressing Choice: \(String(describing: itemToOrder.dressingChoice))")
+    print("sides: \(String(describing: itemToOrder.side))")
+    print("Modifications: \(String(describing: itemToOrder.modifications))")
     dismiss(animated: true)
+  }
+}
+
+extension OptionsViewController {
+  private func setItemValue(to value: PFMenuOption, for option: PFMenuItemOptions) {
+    switch option {
+    case .chickenStyle:
+        break
+    case .dressingChoice:
+      break
+    case .sides:
+      break
+    case .modifications:
+      break
+    case .tempOption:
+      break
+    default:
+      break
+    }
   }
 }

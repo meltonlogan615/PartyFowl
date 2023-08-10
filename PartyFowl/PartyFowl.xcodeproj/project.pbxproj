@@ -85,6 +85,7 @@
 		32D6D9902A01412F0048299F /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 32D6D98F2A01412F0048299F /* locations.json */; };
 		32D6D9922A0141C30048299F /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D9912A0141C30048299F /* LocationCell.swift */; };
 		32D6D9942A0142C30048299F /* PFLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6D9932A0142C30048299F /* PFLocation.swift */; };
+		32FC07662A85184700BA0466 /* PFMenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC07652A85184700BA0466 /* PFMenuOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +175,7 @@
 		32D6D98F2A01412F0048299F /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		32D6D9912A0141C30048299F /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		32D6D9932A0142C30048299F /* PFLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFLocation.swift; sourceTree = "<group>"; };
+		32FC07652A85184700BA0466 /* PFMenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFMenuOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				32A889292A147E7F00FABC61 /* PFHeatOption.swift */,
 				326D4C872A1EBD8A00BBA7FA /* PFDressingOption.swift */,
 				32C218272A27C262007B2480 /* PFMenuItemOptions.swift */,
+				32FC07652A85184700BA0466 /* PFMenuOption.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -757,6 +760,7 @@
 				32A889242A13DB9600FABC61 /* TableView-ScrollToTop.swift in Sources */,
 				32D6D9942A0142C30048299F /* PFLocation.swift in Sources */,
 				329632A32A05662D004E8E40 /* Constants.swift in Sources */,
+				32FC07662A85184700BA0466 /* PFMenuOption.swift in Sources */,
 				32CB54BD2A01A67900A61BCA /* AddressView.swift in Sources */,
 				32D6D9792A0070800048299F /* PrivacyPolicyView.swift in Sources */,
 				32A8890F2A0B234000FABC61 /* VC-DismissOnBoop.swift in Sources */,

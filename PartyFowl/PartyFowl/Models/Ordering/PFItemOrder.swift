@@ -7,13 +7,14 @@
 
 import Foundation
 
-struct PFItemOrder: Codable {
+class PFItemOrder: Codable {
   var customerName: String?
   var itemName: String?
   var qty: Int?
   var chickenStyle: PFChickenStyle?
+  var dressingChoice: PFDressingOption?
   var side: String?
-  var modifications: String?
+  var modifications: [String]?
   var extraSauces: [String: Int]?
   var tempOption: PFTempOption?
   var deliveryMethod: PFDeliveryMethod?

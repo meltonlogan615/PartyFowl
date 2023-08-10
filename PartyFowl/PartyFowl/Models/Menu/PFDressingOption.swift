@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum PFDressingOption: String, Codable, CaseIterable {
+enum PFDressingOption: String, Codable, CaseIterable, PFMenuOption {
   case ranch
   case blueCheese = "blue cheese"
   case whiteBBQSauce = "white BBQ sauce"

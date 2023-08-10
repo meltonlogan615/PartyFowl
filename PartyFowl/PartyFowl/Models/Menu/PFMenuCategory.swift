@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum PFMenuCategory: String, CaseIterable, Codable, Hashable {
+enum PFMenuCategory: String, CaseIterable, Codable, PFMenuOption {
   case nashvilleHotChicken = "nashville hot chicken"
   case forTheTable = "for the table"
   case gumboAndSalads = "gumbo & salads"

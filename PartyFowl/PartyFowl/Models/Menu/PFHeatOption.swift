@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum PFHeatOption: String, CaseIterable, Codable {
+enum PFHeatOption: String, CaseIterable, Codable, PFMenuOption {
   case southernFried = "southern fried"
   case mild, medium
   case nashvilleHot = "nashville hot"

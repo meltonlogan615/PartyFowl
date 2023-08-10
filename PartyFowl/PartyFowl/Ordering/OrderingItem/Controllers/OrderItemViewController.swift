@@ -13,7 +13,8 @@ class OrderItemViewController: UIViewController {
   var optionsTable: ItemsTable!
   var sections: [PFMenuItemOptions] = []
   var addToOrderButton: ActionButton!
-  var itemToOrder: PFItemOrder?
+
+  var itemToOrder = PFItemOrder()
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -117,6 +118,7 @@ extension OrderItemViewController: UITableViewDataSource {
 extension OrderItemViewController: UITableViewDelegate {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     let optionView = OptionsViewController(menuItem: item, options: sections[indexPath.row])
+    optionView.itemToOrder = self.itemToOrder
     let nav = UINavigationController(rootViewController: optionView)
     nav.modalPresentationStyle = .pageSheet
     nav.navigationBar.backgroundColor = .systemBackground
@@ -133,6 +135,9 @@ extension OrderItemViewController: UITableViewDelegate {
 extension OrderItemViewController {
   @objc
   func itemAddedToOrder() {
-    itemToOrder = PFItemOrder(itemName: item.menuItem)
+    print("poop")
+    print(itemToOrder.chickenStyle)
+    print(itemToOrder.modifications)
+//    itemToOrder = PFItemOrder(itemName: item.menuItem)
   }
 }
